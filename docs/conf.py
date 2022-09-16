@@ -22,7 +22,7 @@ copyright = '2022, DSW Team'
 author = 'DSW Team'
 
 # The full version, including alpha/beta/rc tags
-release = '1.15'
+release = 'latest'
 
 
 rst_prolog = f"""
@@ -65,6 +65,9 @@ html_static_path = ['_static']
 html_favicon = '_static/favicon.ico'
 html_theme_options = {
     'display_version': True,
+    'logo_only': True,
+    'light_logo': 'logo/logo-light-mode.svg',
+    'dark_logo': 'logo/logo-dark-mode.svg',
 }
 
 def setup(app):
