@@ -68,6 +68,16 @@ html_theme_options = {
     'logo_only': True,
     'light_logo': 'logo/logo-light-mode.svg',
     'dark_logo': 'logo/logo-dark-mode.svg',
+    'light_css_variables': {
+        'color-brand-primary': '#f15a24',
+        'color-brand-content': '#f15a24',
+    },
+    'dark_css_variables': {
+        'color-brand-primary': '#f15a24',
+        'color-brand-content': '#f15a24',
+    },
+    'sidebar_hide_name': True,
+    'top_of_page_button': None,
 }
 
 def setup(app):

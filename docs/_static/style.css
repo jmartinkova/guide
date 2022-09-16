@@ -1,3 +1,19 @@
 .sidebar-logo-container {
     margin: 0.5rem;
 }
+
+a:hover {
+    text-decoration-color: var(--color-link--hover) !important;
+}
+
+#furo-sidebar-ad-placement {
+    margin-top: 7rem;
+}
+
+.rst-versions .rst-current-version {
+    color: var(--color-brand-primary) !important;
+}
+
+.rst-versions a {
+    color: var(--color-brand-primary) !important;
+}
