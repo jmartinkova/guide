@@ -23,23 +23,19 @@ To copy / duplicate a Project.
 
 ----
 
-Create Knowledge Model
-""""""""""""""""""""""
+**Create Knowledge Model**
 
 To create a new Knowledge Model Branch that contains no Knowledge Model Events.
 
-Create Knowledge Model Migration
-""""""""""""""""""""""""""""""""
+**Create Knowledge Model Migration**
 
 To select a new parent Knowledge Model for a Knowledge Model Branch that is outdated and create a Knowledge Model Migration.
 
-Customization of Knowledge Model 
-""""""""""""""""""""""""""""""""
+**Customization of Knowledge Model**
 
 An ordered collection of changes in another parent knowledge model.
 
-Data Management Plan / DMP
-""""""""""""""""""""""""""
+**Data Management Plan / DMP**
 
 Exported filled questionnaire using a selected template and format that should help a researcher with data management of their project.
 
@@ -136,7 +132,7 @@ To change KM during the Knowledge Model Migration, each change from the parent K
 Project (~Data Management Plan)
 """"
 
-Data Stewardship Wizard provides a simple way to create a project using a Knowledge Model and fill the questionnaire in a smart way - only relevant questions for your case will be shown. A project in the DSW is approximately equaled to a data management plan. The dissimilarity is that a project can have a few phases - Before submitting the proposal, Before submitting the data management plan, and Before finishing the project. These phases differ in number and completeness of the questions answered in the project's questionnaire.
+Data Stewardship Wizard provides a simple way to create a project using a Knowledge Model and fill the questionnaire in a smart way - only relevant questions for your case will be shown. A project in the DSW is approximately equaled to a data management plan. The dissimilarity is that a project can have a few phases - Before submitting the proposal, Before submitting the data management plan, and Before finishing the project. However, those phases can be setup differently by your Data Steward. These phases differ in number and completeness of the questions answered in the project's questionnaire.
 
 Publish Knowledge Model
 """"
@@ -146,7 +142,7 @@ To create a new version of the Knowledge Model Package from the new events added
 Project Phases
 """"
 
-A project can have few phases - Before submitting the proposal, Before submitting the data management plan, and Before finishing the project. These phases differ in number and completeness of the questions answered in the project's questionnaire. Your Data Steward can also set up other project phases.
+A project can have few phases - Before submitting the proposal, Before submitting the data management plan, and Before finishing the project. These phases differ in number and completeness of the questions answered in the project's questionnaire. Your Data Steward can also set up project phases differently.
 
 Questionnaire
 """"
