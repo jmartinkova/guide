@@ -6,6 +6,7 @@ Data Stewardship Wizard
     :maxdepth: 2
 
     general/about-dsw
+    general/terminology
 
     :caption: Miscellaneous
     :maxdepth: 2
