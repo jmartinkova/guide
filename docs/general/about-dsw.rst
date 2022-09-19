@@ -27,6 +27,8 @@ We are part of the initiative  `#activeDMPs <https://activedmps.org/>`__. Here, 
 Learn More
 --------
 
-- item 1
-- item 2
-- item 3
+- `DSW Landing page <https://ds-wizard.org/>`__
+- `DSW Resources <https://ds-wizard.org/resources>`__
+- `DSW Media Kit <https://ds-wizard.org/media>`__
+- `Leaflet <https://github.com/ds-wizard/dsw-leaflet>`__
+- `Diagrams <https://github.com/ds-wizard/dsw-diagrams>`__

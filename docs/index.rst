@@ -2,6 +2,10 @@ Data Stewardship Wizard
 =======================
 
 .. toctree::
+
+    introduction
+
+.. toctree::
     :caption: General
     :maxdepth: 2
 
