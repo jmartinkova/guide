@@ -8,10 +8,24 @@ Basic syntax
 
 These are the most common formatting you would like to use.
 
-=====                                      =====
+=========                                  ===============
 Formattig                                  Markdown Syntax    
-=====                                      =====
+=========                                  ===============
 **Bold text**                              \*\*Bold text\*\*
 *Italic text*                              \*Italic text\*
 `Link<https://ds-wizard.org/>`_.           [link](https://ds-wizard.org/)
-=====                                      =====
+================================           ==============================
+
+
++----------------------------------+--------------------------------+
+| Formatting                       | Markdown Syntax                |
++==================================+================================+
+| **Bold text**                    | \*\*Bold text\*\*              |
++----------------------------------+--------------------------------+
+| *Italic text*                    | \*Italic text\*                |
++----------------------------------+--------------------------------+
+| `Link<https://ds-wizard.org/>`_. | [link](https://ds-wizard.org/) |
++-----------------------------+-------------------------------------+
+
+
+:**Bold text**:
