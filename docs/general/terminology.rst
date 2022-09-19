@@ -39,28 +39,33 @@ An ordered collection of changes in another parent knowledge model.
 
 Exported filled questionnaire using a selected template and format that should help a researcher with data management of their project.
 
-Data Steward
-""""""""""""
+|
+
+**Data Steward**
 
 A person who manages data from a variety of sources. In the DSW a data steward besides creating and managing the data management plans can also create and manage new knowledge models.
 
-Data Stewardship Wizard / DS Wizard / DSW
-"""""""""""""""""""""""""""""""""""""""""
+|
+
+**Data Stewardship Wizard / DS Wizard / DSW**
 
 Our portal solution for Data Management Planning.
 
-Edit Knowledge Model
-""""""""""""""""""""
+|
+
+**Edit Knowledge Model**
 
 To create a new branch for a Knowledge Model Package that is owned by the organization of the current DSW instance. New versions can be published as the next version of the original Knowledge Model Package.
 
-Editor Action
-"""""""""""""
+|
+
+**Editor Action**
 
 To use the Knowledge Model Editor. Knowledge Model can be extended, and events are generated.
 
-Export Knowledge Model
-""""""""""""""""""""""
+|
+
+**Export Knowledge Model**
 
 To export a Knowledge Model. Knowledge Model Package can be exported out of the DSW instance in the form of a Knowledge Model Bundle file (with all its dependencies included).
 
