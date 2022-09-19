@@ -8,6 +8,7 @@ Data Stewardship Wizard
     general/about-dsw
     general/terminology
 
+.. toctree::
     :caption: Miscellaneous
     :maxdepth: 2
 
