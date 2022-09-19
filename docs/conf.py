@@ -24,13 +24,11 @@ author = 'DSW Team'
 # The full version, including alpha/beta/rc tags
 release = 'latest'
 
-
 rst_prolog = f"""
 
 .. |compose_ver| replace:: {release}
 
 """
-
 
 # -- General configuration ---------------------------------------------------
 
@@ -48,7 +46,6 @@ templates_path = []
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -79,6 +76,7 @@ html_theme_options = {
     'sidebar_hide_name': True,
     'top_of_page_button': None,
 }
+
 
 def setup(app):
     app.add_css_file('style.css')

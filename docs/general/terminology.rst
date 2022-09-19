@@ -1,5 +1,6 @@
+***********
 Terminology
-===========
+***********
 
 If you are not too familiar with the Data Stewardship Wizard terminology, here you can find definitions of the most frequently used words and phrases.
 
