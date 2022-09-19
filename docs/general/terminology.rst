@@ -1,77 +1,80 @@
 Terminology
-=========
+===========
 
 If you are not too familiar with the Data Stewardship Wizard terminology, here you can find definitions of the most frequently used words and phrases.
 
 ----
 
-Administrator 
-""""
+**Administrator**
 
 A person who manages the organizational or institutional account. In the DSW this person can create and manage data management plans, knowledge models, templates, and content and systematic settings.
 
-Change of Knowledge Model Item
-""""
+----
+
+**Change of Knowledge Model Item**
 
 To add, edit, or delete a knowledge item.
 
-Clone Project
-""""
+----
+
+**Clone Project**
 
 To copy / duplicate a Project.
 
+----
+
 Create Knowledge Model
-""""
+""""""""""""""""""""""
 
 To create a new Knowledge Model Branch that contains no Knowledge Model Events.
 
 Create Knowledge Model Migration
-""""
+""""""""""""""""""""""""""""""""
 
 To select a new parent Knowledge Model for a Knowledge Model Branch that is outdated and create a Knowledge Model Migration.
 
 Customization of Knowledge Model 
-""""
+""""""""""""""""""""""""""""""""
 
 An ordered collection of changes in another parent knowledge model.
 
 Data Management Plan / DMP
-""""
+""""""""""""""""""""""""""
 
 Exported filled questionnaire using a selected template and format that should help a researcher with data management of their project.
 
 Data Steward
-""""
+""""""""""""
 
 A person who manages data from a variety of sources. In the DSW a data steward besides creating and managing the data management plans can also create and manage new knowledge models.
 
 Data Stewardship Wizard / DS Wizard / DSW
-""""
+"""""""""""""""""""""""""""""""""""""""""
 
 Our portal solution for Data Management Planning.
 
 Edit Knowledge Model
-""""
+""""""""""""""""""""
 
 To create a new branch for a Knowledge Model Package that is owned by the organization of the current DSW instance. New versions can be published as the next version of the original Knowledge Model Package.
 
 Editor Action
-""""
+"""""""""""""
 
 To use the Knowledge Model Editor. Knowledge Model can be extended, and events are generated.
 
 Export Knowledge Model
-""""
+""""""""""""""""""""""
 
 To export a Knowledge Model. Knowledge Model Package can be exported out of the DSW instance in the form of a Knowledge Model Bundle file (with all its dependencies included).
 
 FAIR Metrics
-""""
+""""""""""""
 
 Metrics that show the FAIRness of the project i.e. how much are the FAIR (F - findable, A - accessible, I - interoperable, R - reusable) principles followed and also give suggestions on how to improve it.
 
 Fork Knowledge Model
-""""
+""""""""""""""""""""
 
 To create a new branch for a Knowledge Model Package that is NOT owned by the organization of the current DSW instance. New versions are published as a new Knowledge Model Package.
 
