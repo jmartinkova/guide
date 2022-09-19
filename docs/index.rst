@@ -11,6 +11,7 @@ Data Stewardship Wizard
 
     general/about-dsw
     general/terminology
+    general/plan-choice
 
 .. toctree::
     :caption: Miscellaneous
