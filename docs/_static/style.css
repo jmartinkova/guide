@@ -17,3 +17,7 @@ a:hover {
 .rst-versions a {
     color: var(--color-brand-primary) !important;
 }
+
+.article-container table {
+    width: 99%;
+}
