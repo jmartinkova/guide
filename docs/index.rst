@@ -20,3 +20,4 @@ Data Stewardship Wizard
     miscellaneous/markdown
     miscellaneous/self-hosted-dsw
     miscellaneous/deployment
+    miscellaneous/configuration
