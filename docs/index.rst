@@ -9,14 +9,10 @@ Data Stewardship Wizard
     :caption: General
     :maxdepth: 2
 
-    general/about-dsw
-    general/terminology
-    general/plan-choice
+    general/*
 
 .. toctree::
     :caption: Miscellaneous
     :maxdepth: 2
 
-    miscellaneous/markdown
-    miscellaneous/self-hosted-dsw
-    miscellaneous/deployment/deployment
+    miscellaneous/*
