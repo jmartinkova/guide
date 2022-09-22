@@ -18,3 +18,5 @@ Data Stewardship Wizard
     :maxdepth: 2
 
     miscellaneous/markdown
+    miscellaneous/self-hosted-dsw
+    miscellaneous/deployment/deployment

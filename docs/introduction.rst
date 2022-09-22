@@ -11,4 +11,4 @@ The following pages should help you if you are not sure how to start using the t
 
 .. WARNING::
 
-    Note that the DSW Dashboard (the orange panel on the left side of the Wizard) can alter throughout the User Guide depending on the type of instance you are using.
+    Note that the DSW Menu (the orange panel on the left side of the Wizard) can alter throughout the User Guide depending on the type of instance you are using.
