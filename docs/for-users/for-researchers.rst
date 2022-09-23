@@ -14,5 +14,7 @@ This section is dedicated for researchers who want to start creating data manage
 
     Add Links
 
+:doc:`../projects`
+
 * Projects (~DMPs)
 * Knowledge Models
