@@ -144,7 +144,7 @@ Document Templates
 
 You can freely customize and style templates of documents (DMPs). HTML and CSS knowledge is required and for doing more complex templates that use some conditions, loops, or macros, knowledge of `Jinja templating language <https://jinja.palletsprojects.com/en/3.1.x/>`__ (pure Python implementation) is useful.
 
-.. TODO::
+.. TODO:
 
     Add link
 
@@ -174,7 +174,7 @@ Templates variables
 
 All templates are provided also with variables:
 
-.. TODO::
+.. TODO:
 
     links to old documentation?
 
@@ -188,7 +188,7 @@ Email types
 
 Currently, there are following types of mail:
 
-.. TODO::
+.. TODO:
 
     links to old documentation?
 

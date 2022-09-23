@@ -16,7 +16,7 @@ The `public instances <https://dsw-guide.readthedocs.io/en/develop/general/plan-
 DSW Registry
 ============
 
-.. TODO::
+.. TODO:
 
     Add links
 
@@ -64,7 +64,7 @@ Default Users
 
 Initially, migrations will fill the database with predefined data needed including three users, all with password “password”:
 
-.. TODO::
+.. TODO:
 
     Add links
 

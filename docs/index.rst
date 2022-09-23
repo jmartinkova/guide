@@ -1,5 +1,6 @@
+***********************
 Data Stewardship Wizard
-=======================
+***********************
 
 .. toctree::
 
@@ -11,6 +12,17 @@ Data Stewardship Wizard
 
     general/about-dsw
     general/terminology
+    general/user-account
+    general/open-project
+    general/clone-project
+
+.. toctree::
+    :caption: For Users
+    :maxdepth: 2
+
+    for-users/for-researchers
+    for-users/create-project
+    for-users/projects
 
 .. toctree::
     :caption: Miscellaneous
@@ -20,4 +32,4 @@ Data Stewardship Wizard
     miscellaneous/self-hosted-dsw
     miscellaneous/deployment
     miscellaneous/configuration
-    miscellaneous/test/vulnerabilities
+    miscellaneous/vulnerabilities
