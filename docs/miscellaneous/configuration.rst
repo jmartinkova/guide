@@ -2,6 +2,10 @@
 Configuration
 *************
 
+.. WARNING::
+
+    This page is obsolete and requires check
+
 Settings
 ========
 

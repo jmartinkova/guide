@@ -2,6 +2,10 @@
 Self-Hosted DSW
 ***************
 
+.. WARNING::
+
+    This page is obsolete and requires check
+
 DSW can be deployed in your environment using Docker.
 
 ----
