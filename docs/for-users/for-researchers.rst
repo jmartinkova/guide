@@ -14,7 +14,9 @@ This section is dedicated for researchers who want to start creating data manage
 
     Add Links
 
-`Hello there <Projects (~ DMPs)>`__
+`Hello there <Projects (~ DMPs)>`_
+
+`Link na Open Project <Open Project>`_
 
 * Projects (~DMPs)
 * Knowledge Models
