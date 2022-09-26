@@ -28,6 +28,7 @@ Data Stewardship Wizard
     for-users/share-project
     for-users/comments
     for-users/questionnaire
+    for-users/fair-metrics
 
 .. toctree::
     :caption: Miscellaneous

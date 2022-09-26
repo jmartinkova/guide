@@ -17,7 +17,7 @@ Not sure how to share your Project?
 Share Project
 =============
 
-First, `open the Project <https://dsw-guide.readthedocs.io/en/latest/for-users/open-project.html>`__. you want to share.
+First, :doc:`./open-project`. you want to share.
 
 Click on the "Share" button in the upper right corner of the project page.
 

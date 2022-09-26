@@ -8,7 +8,7 @@ Not sure how to comment on a Project?
 
 .. NOTE::
 
-    You can add comments or Editor notes to every question in the Project. Anybody with Commenter rights (and higher) can comment. Editor notes can be added and seen only by Editors and/or Owners of the Project. The Owner can adjust the rights for anybody by `changing the Share options <https://dsw-guide.readthedocs.io/en/latest/for-users/share-project.html>`__.
+    You can add comments or Editor notes to every question in the Project. Anybody with Commenter rights (and higher) can comment. Editor notes can be added and seen only by Editors and/or Owners of the Project. The Owner can adjust the rights for anybody in :doc:`./share-project`.
 
 Comment on Project
 ==================

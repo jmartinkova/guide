@@ -43,4 +43,4 @@ Now you can create your new Project.
 
 .. NOTE::
 
-    Note that the name of the Project can be changed later but the choice of the Knowledge Model can be changed only through a `Project Migration <https://dsw-guide.readthedocs.io/en/latest/for-users/project-migration.html>`__.
+    Note that the name of the Project can be changed later but the choice of the Knowledge Model can be changed only through a :doc:`./project-migration`.

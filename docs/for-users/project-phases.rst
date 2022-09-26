@@ -19,7 +19,7 @@ However, your Data Steward can set other phases for your Project. These phases c
 Change Project Phase
 ====================
 
-To change the Project Phase `open your Project <https://dsw-guide.readthedocs.io/en/latest/for-users/open-project.html>`__.
+To change the Project Phase :doc:`./open-project`.
 
 Click on the drop-down menu arrow and choose the phase of your Project.
 

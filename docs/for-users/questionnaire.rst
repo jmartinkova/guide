@@ -13,7 +13,7 @@ A questionnaire is a filling-in form that represents the chosen Knowledge Model.
 
 .. TODO:
 
-    Add Screenshot Questionnaire
+    Add Screenshot Questionnaire screen
 
 .. NOTE::
 

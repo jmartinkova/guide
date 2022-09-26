@@ -18,5 +18,5 @@ This section is dedicated for researchers who want to start creating data manage
 
 `Link na Open Project <Open Project>`_
 
-* Projects (~DMPs)
+* :doc:`./projects`
 * Knowledge Models
