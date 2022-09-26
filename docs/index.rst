@@ -29,8 +29,16 @@ Data Stewardship Wizard
     for-users/comments
     for-users/questionnaire
     for-users/fair-metrics
-    for-users/project-preview
-    for-users/documents
+..    for-users/project-preview
+..    for-users/documents
+
+.. toctree::
+    :caption: Next level
+    :maxdepth: 2
+
+    for-user/user/questionnaire
+    for-user/user/share-project
+
 
 .. toctree::
     :caption: Miscellaneous
