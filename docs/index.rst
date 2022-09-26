@@ -16,7 +16,7 @@ Data Stewardship Wizard
 
 .. toctree::
     :caption: For Users
-    :maxdepth: 2
+    :maxdepth: 3
 
     for-users/for-researchers
     for-users/create-project
@@ -29,6 +29,8 @@ Data Stewardship Wizard
     for-users/comments
     for-users/questionnaire
     for-users/fair-metrics
+    for-users/project-preview
+    for-users/documents
 
 .. toctree::
     :caption: Miscellaneous

@@ -10,7 +10,7 @@ This section is dedicated for researchers who want to start creating data manage
 
 **What help is listed in this section?**
 
-.. TODO:
+.. TODO::
 
     Add Links
 
@@ -18,5 +18,9 @@ This section is dedicated for researchers who want to start creating data manage
 
 `Link na Open Project <Open Project>`_
 
-* :doc:`./projects`
-* Knowledge Models
+.. SEEALSO::
+
+    :doc:`./projects`
+        fs
+
+    Knowledge Models

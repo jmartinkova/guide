@@ -17,16 +17,16 @@ To change the Project Phase :doc:`./open-project`.
 
 Then click on the comment icon on the right side of each question.
 
-.. TODO:
+.. TODO::
 
     Add Screenshot Click on Add Comment
 
 Now you can add comments or Editor notes.
 
-.. TODO:
+.. TODO::
 
     Add Screenshot Comments
 
-.. TODO:
+.. TODO::
 
     Add Screenshot Screenshots

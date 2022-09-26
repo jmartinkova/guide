@@ -2,7 +2,7 @@
 Open Project
 ************
 
-.. TODO:
+.. TODO::
 
     Remove this page?
 
@@ -15,13 +15,13 @@ Open Project
 
 Click on the icon of the folder on the left upper side of the Dashboard.
 
-.. TODO:
+.. TODO::
 
     Add screenshot Click on side menu to open Projects
 
 Click on the name of the project you want to open.
 
-.. TODO:
+.. TODO::
 
     Add screenshot Click on the name of your Project
 

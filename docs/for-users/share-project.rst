@@ -21,13 +21,13 @@ First, :doc:`./open-project`. you want to share.
 
 Click on the "Share" button in the upper right corner of the project page.
 
-.. TODO:
+.. TODO::
 
     Add Screenshot Click on Share
 
 Choose from the sharing options.
 
-.. TODO:
+.. TODO::
 
     Add Screenshot Choose from the sharing options
 

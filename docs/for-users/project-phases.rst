@@ -23,7 +23,7 @@ To change the Project Phase :doc:`./open-project`.
 
 Click on the drop-down menu arrow and choose the phase of your Project.
 
-.. TODO:
+.. TODO::
 
     Add Screenshot Select Project Phase from dropdown menu
 
