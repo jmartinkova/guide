@@ -13,7 +13,7 @@ Not sure how to comment on a Project?
 Comment on Project
 ==================
 
-To change the Project Phase `open your Project <https://dsw-guide.readthedocs.io/en/latest/for-users/open-project.html>`__.
+To change the Project Phase :doc:`./open-project`.
 
 Then click on the comment icon on the right side of each question.
 
