@@ -19,26 +19,22 @@ Data Stewardship Wizard
     :maxdepth: 3
 
     for-users/for-researchers
-    for-users/create-project
-    for-users/projects
-    for-users/open-project
-    for-users/clone-project
-    for-users/project-migration
-    for-users/project-phases
-    for-users/share-project
-    for-users/comments
-    for-users/questionnaire
-    for-users/fair-metrics
-..    for-users/project-preview
-..    for-users/documents
 
-.. toctree::
-    :caption: Next level
-    :maxdepth: 2
+    .. toctree::
+        :maxdepth: 2
 
-    for-user/user/questionnaire
-    for-user/user/share-project
-
+        for-users/projects
+        for-users/create-project
+        for-users/open-project
+        for-users/clone-project
+        for-users/project-migration
+        for-users/project-phases
+        for-users/share-project
+        for-users/comments
+        for-users/questionnaire
+        for-users/fair-metrics
+        for-users/project-preview
+        for-users/documents
 
 .. toctree::
     :caption: Miscellaneous
@@ -46,6 +42,10 @@ Data Stewardship Wizard
 
     miscellaneous/markdown
     miscellaneous/self-hosted-dsw
-    miscellaneous/deployment
-    miscellaneous/configuration
-    miscellaneous/vulnerabilities
+
+    .. toctree::
+        :maxdepth: 2
+
+        miscellaneous/deployment
+        miscellaneous/configuration
+        miscellaneous/vulnerabilities
