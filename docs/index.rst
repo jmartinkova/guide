@@ -13,8 +13,6 @@ Data Stewardship Wizard
     general/about-dsw
     general/terminology
     general/user-account
-    general/open-project
-    general/clone-project
 
 .. toctree::
     :caption: For Users
@@ -23,6 +21,13 @@ Data Stewardship Wizard
     for-users/for-researchers
     for-users/create-project
     for-users/projects
+    for-users/open-project
+    for-users/clone-project
+    for-users/project-migration
+    for-users/project-phases
+    for-users/share-project
+    for-users/comments
+    for-users/questionnaire
 
 .. toctree::
     :caption: Miscellaneous
