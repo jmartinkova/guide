@@ -19,10 +19,6 @@ Data Stewardship Wizard
     :maxdepth: 3
 
     for-users/for-researchers
-
-    .. toctree::
-        :maxdepth: 2
-
         for-users/projects
         for-users/create-project
         for-users/open-project
