@@ -6,6 +6,8 @@ This section will help you to create and manage your Data Management Plan.
 
 ----
 
+**Projects**
+
 **What help is listed in this section?**
 
 .. TODO::

@@ -14,8 +14,7 @@ Not sure how to share your Project?
 
     To share a Project with unlogged-in users, enable the "Public link" option in "Share".
 
-Share Project
-=============
+**How to Share Project**
 
 First, :doc:`./open-project`. you want to share.
 

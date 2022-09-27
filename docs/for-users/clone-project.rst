@@ -6,8 +6,7 @@ Not sure how to create a clone (duplicate, copy) of your Project?
 
 ----
 
-Clone Project
-=============
+**How to Clone Project**
 
 Click on the icon of the folder on the left upper side of the Dashboard.
 

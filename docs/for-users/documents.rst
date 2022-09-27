@@ -6,6 +6,8 @@ Not sure how to manage documents inside of a Project?
 
 ----
 
+**Documents**
+
 This section of the Project displays all documents for the project. You can download the document, delete it, or navigate to a questionnaire used for the DMP. If there is a submission service configured for the template, you may submit such documents.
 
 .. WARNING::

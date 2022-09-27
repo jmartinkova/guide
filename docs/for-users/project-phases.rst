@@ -16,8 +16,7 @@ However, your Data Steward can set other phases for your Project. These phases c
 
 ----
 
-Change Project Phase
-====================
+**How to Change Project Phase**
 
 To change the Project Phase :doc:`./open-project`.
 

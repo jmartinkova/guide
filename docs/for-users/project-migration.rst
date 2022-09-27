@@ -6,8 +6,7 @@ Not sure how to update a Project to a different Knowledge Model?
 
 ----
 
-Project Migration
-=================
+**How to Migrate Project**
 
 Click on the icon of the folder on the left upper side of the Dashboard.
 

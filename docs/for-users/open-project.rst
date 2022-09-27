@@ -10,8 +10,7 @@ Not sure how to open your Project?
 
 ----
 
-Open Project
-============
+**How to Open Project**
 
 Click on the icon of the folder on the left upper side of the Dashboard.
 

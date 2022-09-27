@@ -6,6 +6,8 @@ Not sure where to see a preview of your Project?
 
 ----
 
+**Project Preview**
+
 .. WARNING::
 
     To be able to see the Preview of your Project, choose a template and a format in the :doc:`./project-settings`, and save your choice.

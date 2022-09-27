@@ -6,8 +6,7 @@ Not sure what a questionnaire is?
 
 ----
 
-Questionnaire
-=============
+**Questionnaire**
 
 A questionnaire is a filling-in form that represents the chosen Knowledge Model.
 
