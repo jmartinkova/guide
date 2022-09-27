@@ -16,21 +16,21 @@ Data Stewardship Wizard
 
 .. toctree::
     :caption: For Users
-    :maxdepth: 3
+    :maxdepth: 2
 
     for-users/for-researchers
-        for-users/projects
-        for-users/create-project
-        for-users/open-project
-        for-users/clone-project
-        for-users/project-migration
-        for-users/project-phases
-        for-users/share-project
-        for-users/comments
-        for-users/questionnaire
-        for-users/fair-metrics
-        for-users/project-preview
-        for-users/documents
+    for-users/projects
+    for-users/create-project
+    for-users/open-project
+    for-users/clone-project
+    for-users/project-migration
+    for-users/project-phases
+    for-users/share-project
+    for-users/comments
+    for-users/questionnaire
+    for-users/fair-metrics
+    for-users/project-preview
+    for-users/documents
 
 .. toctree::
     :caption: Miscellaneous
@@ -38,10 +38,6 @@ Data Stewardship Wizard
 
     miscellaneous/markdown
     miscellaneous/self-hosted-dsw
-
-    .. toctree::
-        :maxdepth: 2
-
-        miscellaneous/deployment
-        miscellaneous/configuration
-        miscellaneous/vulnerabilities
+    miscellaneous/deployment
+    miscellaneous/configuration
+    miscellaneous/vulnerabilities
