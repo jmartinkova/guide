@@ -6,8 +6,7 @@ Not sure how to create a new data management plan?
 
 ----
 
-Create Project
-==============
+**Create Project**
 
 Click on the icon of the folder on the left upper side of Dashboard.
 
