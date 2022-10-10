@@ -38,6 +38,12 @@ Data Stewardship Wizard
     for-users/zen-mode
     for-users/machine-actionability
     for-users/online-collaboration
+    for-users/download-preview
+    for-users/delete-project
+    for-users/knowledge-models
+    for-users/knowledge-model-change
+    for-users/knowledge-model-choice
+    for-users/knowledge-model-details
 
 .. toctree::
     :caption: Miscellaneous
