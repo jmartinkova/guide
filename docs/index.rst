@@ -31,13 +31,20 @@ Data Stewardship Wizard
     for-users/fair-metrics
     for-users/project-preview
     for-users/documents
+    for-users/project-settings
+    for-users/project-tags
+    for-users/todos
+    for-users/version-history
+    for-users/zen-mode
+    for-users/machine-actionability
+    for-users/online-collaboration
 
 .. toctree::
     :caption: Miscellaneous
     :maxdepth: 3
 
     miscellaneous/markdown
-    miscellaneous/self-hosted-dsw
-    miscellaneous/deployment
-    miscellaneous/configuration
-    miscellaneous/vulnerabilities
+..    miscellaneous/self-hosted-dsw
+..    miscellaneous/deployment
+..    miscellaneous/configuration
+..    miscellaneous/vulnerabilities
