@@ -50,7 +50,9 @@ Data Stewardship Wizard
     :maxdepth: 3
 
     miscellaneous/markdown
-..    miscellaneous/self-hosted-dsw
-..    miscellaneous/deployment
-..    miscellaneous/configuration
-..    miscellaneous/vulnerabilities
+
+    miscellaneous/self-hosted-dsw/index
+    miscellaneous/self-hosted-dsw/deployment
+    miscellaneous/self-hosted-dsw/configuration
+    miscellaneous/self-hosted-dsw/upgrade-guidelines
+    miscellaneous/vulnerabilities

@@ -2,25 +2,9 @@
 Deployment
 **********
 
-Public Instances
-================
-
-The `public instances <https://dsw-guide.readthedocs.io/en/develop/general/plan-choice.html>`__ are currently deployed on a server provided by ELIXIR.
-
 .. NOTE::
 
     It is a good idea to first try out DSW using the public instances before going for other options (self-hosted or DSW Cloud).
-
-----
-
-DSW Registry
-============
-
-.. TODO:
-
-    Add links
-
-    When you have your own self-hosted instance, it is essential for you to register within the DSW Registry. It is a source of shared knowledge models and can support your deployment. After registration of your organization with a unique ID and email verification, you will get your token. This token is then used in Settings. Then your instance is connected automatically to the Registry service for specific functionality such as accessing shared knowledge models and document templates.
 
 ----
 
@@ -64,13 +48,9 @@ Default Users
 
 Initially, migrations will fill the database with predefined data needed including three users, all with password “password”:
 
-.. TODO:
-
-    Add links
-
-    * albert.einstein@example.com (Administrator)
-    * nikola.tesla@example.com (Data Steward)
-    * isaac.newton@example.com (Researcher)
+* albert.einstein@example.com (Administrator)
+* nikola.tesla@example.com (Data Steward)
+* isaac.newton@example.com (Researcher)
 
 You can use those accounts for testing or to initially made your own account admin and then delete them.
 
@@ -78,10 +58,18 @@ You can use those accounts for testing or to initially made your own account adm
 
     Having a public instance with default accounts is a **security risk**. Delete or change default accounts (mainly Albert Einstein) if your DSW instance is public as soon as possible. Also, adjust authentication settings according to your needs.
 
-Initial Knowledge Model
------------------------
+DSW Registry
+------------
 
-When you have a fresh installation, there are just the default users and no knowledge models. You are free to create a new one from scratch if you want. Another option is to import existing KM ``dsw:root:X.Y.Z`` from the `Registry <https://registry.ds-wizard.org/>`__. It is the core knowledge model for general data stewardship. The specific latest version (or other versions that is the best for you), as well as other shared Knowledge Models, can be found on the landing page of the `Registry service <https://registry.ds-wizard.org/>`__. Another option is to import it from a file if you have any (according to usage).
+When you have your own self-hosted instance, it is essential for you to register within the `DSW Registry <https://registry.ds-wizard.org>`__. It is a source of shared knowledge models, and document templates that can support your deployment. The registry is also integrated inside the DSW. Therefore, you can easily pull new versions from the DSW. The registration can be done either directly in your DSW instance in the Settings or via the DSW Registry website.
+
+
+Initial Knowledge Model and Document Templates
+----------------------------------------------
+
+When you have a fresh installation, there are just the default users and no knowledge models or document templates. You are free to create them from scratch if you want. Another option is to import existing KM and document templates from the `DSW Registry <https://registry.ds-wizard.org/>`__.
+
+In the `DSW Registry <https://registry.ds-wizard.org/>`__, you can find the core knowledge model for general data stewardship and a couple of document templates, such as Horizon Europe.  Another option is to import it from a file if you have any (according to usage).
 
 Database Backups
 ----------------
@@ -100,9 +88,11 @@ The following requirements were estimated using `limiting Docker resources <http
 +-----------------+----------------+----------------+
 | Client          | 16 MB          | 64 MB          |
 +-----------------+----------------+----------------+
-| Document Worker | 240 MB         | 448 MB         |
+| Document Worker | 240 MB         | 1024 MB        |
 +-----------------+----------------+----------------+
-| **Total**       | **348 MB**     | **1024 MB**    |
+| Mailer          | 240 MB         | 448 MB         |
++-----------------+----------------+----------------+
+| **Total**       | **624 MB**     | **2048 MB**    |
 +-----------------+----------------+----------------+
 
 As for CPU, there are no long-running tasks that would require excessive CPU consumption. Limiting CPU resources can only make some operations slightly longer (e.g. importing a knowledge model, generating a document). A number of CPUs/cores will then affect performance for concurrent users/actions. Memory consumption is affected by the size of the content (as some content is being cached for speed optimizations).

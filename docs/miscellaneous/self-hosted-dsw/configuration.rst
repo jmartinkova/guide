@@ -26,18 +26,32 @@ General
 
 This configuration section is used only by **Server** and covers basic configuration of the application.
 
-* ``serverPort`` (``int``, default: 3000) = Port that will be the web server listening on.
-* ``secret`` (``string``) = Secret string of 32 characters for encrypting configuration in database and JWT tokens.
-* ``clientUrl`` (``URI``) = Address of client application (e.g. `https://localhost:8080 <https://localhost:8080>`__).
-* ``serviceToken`` (``string``) = Randomly generated string for API authentication of service endpoints.
+.. confval:: serverPort
+
+   :type: Int
+   :default: ``3000``
+
+    Port that will be the web server listening on.
+
+.. confval:: secret
+
+   :type: String
+
+    Secret string of 32 characters for encrypting configuration in database and JWT tokens.
+
+.. confval:: clientUrl
+
+   :type: URI
+
+    Address of client application (e.g. `https://localhost:8080 <https://localhost:8080>`__).
 
 .. WARNING::
 
-    Keep your ``secret`` and ``serviceToken`` secured! Changing ``secret`` will require re-configuration of secrets stored in the database, e.g., token for Registry.
+    Keep your ``secret`` secured! Changing ``secret`` will require re-configuration of secrets stored in the database, e.g., token for Registry.
 
 If you need to change your ``secret``, you need also replace all values encrypted by secret that are stored in the database as follows:
 
-1. Note somewhere values from Settings: Client ID and Client Secret of OpenID configurations, Registry token, and GitHub token for Feedback functionality. Adjust the settings that the values are not there (recommended; e.g. remove OpenID configuration), and save it.
+1. Note somewhere values from Settings: Client ID and Client Secret of OpenID configurations, Registry token, and GitHub token for Feedback functionality, etc. Adjust the settings that the values are not there (recommended; e.g. remove OpenID configuration), and save it.
 2. Change ``secret`` in the configuration file and restart DSW server (re-create the container if using Docker).
 3. Adjust the settings back to your previous values.
 4. If you use also some "user properties" (for Document Submission feature), let your users know to change the values in their profiles.
@@ -47,49 +61,125 @@ Database
 
 Information for connection to PostgreSQL database.
 
-* ``connectionString`` (``string``) = PostgreSQL database `connection string <https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING>`__ (typically: ``postgresql://{username}:{password}@{hostname}:{port}/{dbname}``, for example, ``postgresql://postgres:postgres@localhost:5432/postgres``).
+.. confval:: connectionString
+
+   :type: String
+
+    PostgreSQL database `connection string <https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING>`__ (typically: ``postgresql://{username}:{password}@{hostname}:{port}/{dbname}``, for example, ``postgresql://postgres:postgres@localhost:5432/postgres``).
 
 S3
 ^^
 
 Information for connection to S3 storage (used for document and template asset files).
 
-* ``url`` (``URI``) = endpoint of S3 storage, e.g., ``http://minio:9000``
-* ``username`` (``string``) = username (or ``Access Key ID``) for authentication
-* ``password`` (``string``) = password (or ``Secret Access Key``) for authentication
-* ``bucket`` (``string``, default: ``engine-wizard``) = bucket name used by DSW
+.. confval:: url
+
+   :type: URI
+
+    Endpoint of S3 storage, e.g., ``http://minio:9000``
+
+.. confval:: username
+
+   :type: String
+
+    Username (or ``Access Key ID``) for authentication
+
+.. confval:: password
+
+   :type: String
+
+    Password (or ``Secret Access Key``) for authentication
+
+.. confval:: bucket
+
+   :type: String
+   :default: ``engine-wizard``
+
+    Bucket name used by DSW
 
 Mail
 ^^^^
 
 This configuration section is used only by **Server**. It must be filled with SMTP connection information to allow sending emails (registration verification, password recovery, project invitation, etc.).
 
-* ``enabled`` (``boolean``) = It should be set to ``true`` unless used for local testing only.
-* ``name`` (``string``) = Name of the DS Wizard instance that will be used as “senders name” in email headers.
-* ``email`` (``string``) = Email address from which the emails will be sent.
-* ``host`` (``string``) = Hostname or IP address of SMTP server.
-* ``port`` (``int``) = Port that is used for SMTP on the server (usually ``25`` for plain or ``465`` for SSL).
-* ``ssl`` (``boolean``, default: ``false``) = If SMTP connection is encrypted via SSL (we highly recommend this).
-* ``authEnabled`` (``boolean``) = If authentication using username and password should be used for SMTP.
-* ``username`` (``string``) = Username for the SMTP connection.
-* ``password`` (``string``) = Password for the SMTP connection.
 
-Analytics
-^^^^^^^^^
+.. confval:: enabled
 
-This configuration section is used only by **Server** and it allows you to receive email notifications when a new user registers.
+   :type: String
 
-* ``enabled`` (``boolean``) = If analytic emails should be sent.
-* ``email`` (``string``) = Target email address where analytics to which will be sent.
+    It should be set to ``true`` unless used for local testing only.
+
+.. confval:: name
+
+   :type: String
+
+    Name of the DS Wizard instance that will be used as “senders name” in email headers.
+
+.. confval:: email
+
+   :type: String
+
+    Email address from which the emails will be sent.
+
+.. confval:: host
+
+   :type: String
+
+    Hostname or IP address of SMTP server.
+
+.. confval:: port
+
+   :type: Int
+
+    Port that is used for SMTP on the server (usually ``25`` for plain or ``465`` for SSL).
+
+.. confval:: ssl
+
+   :type: Boolean
+   :default: ``false``
+
+    If SMTP connection is encrypted via SSL (we highly recommend this).
+
+.. confval:: authEnabled
+
+   :type: Boolean
+
+    If authentication using username and password should be used for SMTP.
+
+.. confval:: username
+
+   :type: String
+
+    Username for the SMTP connection.
+
+.. confval:: password
+
+   :type: String
+
+    Password for the SMTP connection.
 
 Externals
 ^^^^^^^^^
 
 This configuration section is used only by **Document Worker**. You can affect steps for templates that use external tools (``pandoc`` and ``wkhtmltopdf``). It is usually sufficient to keep the defaults. Each of them has configuration options:
 
-* ``executable`` (``string``) = Command or path to run the external tool.
-* ``args`` (``string``) = Command line arguments used to run the tool.
-* ``timeout`` (``int``) = Optional for limiting time given to run the tool.
+.. confval:: executable
+
+   :type: String
+
+    Command or path to run the external tool.
+
+.. confval:: args
+
+   :type: String
+
+    Command line arguments used to run the tool.
+
+.. confval:: timeout
+
+   :type: Int
+
+    Optional for limiting time given to run the tool.
 
 Integrations Configuration
 --------------------------
@@ -153,7 +243,7 @@ You can freely customize and style templates of documents (DMPs). HTML and CSS k
 Email Templates
 ===============
 
-Similarly to document templates, you can customize templates for emails sent by the Wizard located in ``templates/mail`` folder. It also uses `Jinja templating language <https://jinja.palletsprojects.com/en/3.1.x/>`__ (for email templates we use its implementation called `Ginger <https://ginger.tobiasdammers.nl/guide/>`__). And you can create HTML template, Plain Text template, add attachments, and add inline images (which can be used inside the HTML using `Content-ID <https://en.wikipedia.org/wiki/MIME#Related>`__ equal to the filename).
+Similarly to document templates, you can customize templates for emails sent by the Wizard located in ``templates/mail`` folder. It also uses `Jinja templating language <https://jinja.palletsprojects.com/en/3.1.x/>`__. And you can create HTML template, Plain Text template, add attachments, and add inline images (which can be used inside the HTML using `Content-ID <https://en.wikipedia.org/wiki/MIME#Related>`__ equal to the filename).
 
 Templates Structure
 ^^^^^^^^^^^^^^^^^^^
@@ -203,12 +293,10 @@ Including own email templates while using dockerized Wizard is practically the s
 
 .. CODE-BLOCK::
 
-    server:
-        image: datastewardshipwizard/wizard-server
+    mailer:
+        image: datastewardshipwizard/mailer
         restart: always
-    ports:
-        - 3000:3000
     volumes:
-        - /dsw/application.yml:/application/engine-wizard/config/application.yml
-        - /dsw/templates/mail:/application/engine-wizard/templates/mail:ro
+        - /dsw/application.yml:/app/config.yml:ro
+        - /dsw/templates/mail:/app/templates:ro
     # ... (continued)
