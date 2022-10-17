@@ -44,6 +44,7 @@ Data Stewardship Wizard
     for-users/for-researchers/knowledge-models/knowledge-model-change
     for-users/for-researchers/knowledge-models/knowledge-model-choice
     for-users/for-researchers/knowledge-models/knowledge-model-details
+    for-users/for-data-stewards/knowledge-model-editor/create-project-template
 
 .. toctree::
     :caption: Miscellaneous
