@@ -8,5 +8,11 @@ Knowledge Model Editor
 
     add-chapter
     add-question
-    change-order-of-question
+    change-order-of-questions
     create-knowledge-model
+    add-reference-or-expert
+    add-metrics
+    add-phase
+    add-tag
+    manage-tags
+    add-integration
