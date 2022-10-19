@@ -10,17 +10,5 @@ This section is dedicated for researchers who want to start creating data manage
 
 **What help is listed in this section?**
 
-.. TODO::
-
-    Add Links
-
-`Hello there <Projects (~ DMPs)>`_
-
-`Link na Open Project <Open Project>`_
-
-.. SEEALSO::
-
-    :doc:`./projects`
-        fs
-
-    Knowledge Models
+* :doc:`./projects`
+* :doc:`knowledge-models`

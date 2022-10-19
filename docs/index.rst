@@ -19,26 +19,8 @@ Data Stewardship Wizard
     :maxdepth: 2
 
     for-users/for-researchers/index
-    for-users/for-researchers/projects/create-project
-    for-users/for-researchers/projects/open-project
-    for-users/for-researchers/projects/clone-project
-    for-users/for-researchers/projects/project-migration
-    for-users/for-researchers/projects/project-phases
-    for-users/for-researchers/projects/share-project
-    for-users/for-researchers/projects/comments
-    for-users/for-researchers/projects/questionnaire
-    for-users/for-researchers/projects/fair-metrics
-    for-users/for-researchers/projects/project-preview
-    for-users/for-researchers/projects/documents
-    for-users/for-researchers/projects/project-settings
-    for-users/for-researchers/projects/project-tags
-    for-users/for-researchers/projects/todos
-    for-users/for-researchers/projects/version-history
-    for-users/for-researchers/projects/zen-mode
-    for-users/for-researchers/projects/machine-actionability
-    for-users/for-researchers/projects/online-collaboration
-    for-users/for-researchers/projects/download-preview
-    for-users/for-researchers/projects/delete-project
+    for-users/for-researchers/projects/index
+
     for-users/for-researchers/knowledge-models/knowledge-model-change
     for-users/for-researchers/knowledge-models/knowledge-model-choice
     for-users/for-researchers/knowledge-models/knowledge-model-details

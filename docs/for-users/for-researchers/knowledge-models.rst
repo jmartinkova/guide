@@ -13,6 +13,6 @@ In the Researchers instance, you are only allowed to choose from the already pub
 What help is listed in this section?
 ====================================
 
-- :doc:`./knowledge-model-choice`
-- :doc:`./knowledge-model-details`
-- :doc:`./knowledge-model-change`
+- :doc:`../knowledge-models/knowledge-model-choice`
+- :doc:`../knowledge-models/knowledge-model-details`
+- :doc:`../knowledge-models/knowledge-model-change`
