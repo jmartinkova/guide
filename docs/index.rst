@@ -18,8 +18,7 @@ Data Stewardship Wizard
     :caption: For Users
     :maxdepth: 2
 
-    for-users/for-researchers/for-researchers
-    for-users/for-researchers/projects
+    for-users/for-researchers/index
     for-users/for-researchers/projects/create-project
     for-users/for-researchers/projects/open-project
     for-users/for-researchers/projects/clone-project
@@ -40,7 +39,6 @@ Data Stewardship Wizard
     for-users/for-researchers/projects/online-collaboration
     for-users/for-researchers/projects/download-preview
     for-users/for-researchers/projects/delete-project
-    for-users/for-researchers/knowledge-models
     for-users/for-researchers/knowledge-models/knowledge-model-change
     for-users/for-researchers/knowledge-models/knowledge-model-choice
     for-users/for-researchers/knowledge-models/knowledge-model-details
