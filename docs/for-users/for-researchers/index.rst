@@ -8,4 +8,5 @@ For Researchers
 
     for-researchers
     knowledge-models
-    projects
+    knowledge-models/index
+    projects/index
