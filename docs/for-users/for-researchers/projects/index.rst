@@ -4,7 +4,7 @@ Projects
 
 .. toctree::
     :caption: Projects
-    :maxdepth: 2
+    :maxdepth: 1
 
     create-project
     open-project

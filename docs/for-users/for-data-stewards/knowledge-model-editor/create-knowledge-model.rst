@@ -13,7 +13,7 @@ Not sure how to create a new Knowledge Model?
 Create Knowledge Model
 ======================
 
-Click on the "Knowledge Models" and then on "Editors" in Sidebar.
+Click on "Knowledge Models" and then on "Editors" in Sidebar.
 
 .. TODO::
 

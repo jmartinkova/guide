@@ -4,7 +4,7 @@ Knowledge Model Editor
 
 .. toctree::
     :caption: Knowledge Model Editor
-    :maxdepth: 2
+    :maxdepth: 1
 
     add-chapter
     add-question
@@ -19,4 +19,6 @@ Knowledge Model Editor
     edit-knowledge-model
     preview-km-in-km-editor
     deep-links
-    
+    publish-knowledge-model
+    update-knowledge-model
+    delete-knowledge-mode
