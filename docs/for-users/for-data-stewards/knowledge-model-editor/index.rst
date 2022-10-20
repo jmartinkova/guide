@@ -16,3 +16,7 @@ Knowledge Model Editor
     add-tag
     manage-tags
     add-integration
+    edit-knowledge-model
+    preview-km-in-km-editor
+    deep-links
+    
