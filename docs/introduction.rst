@@ -12,4 +12,4 @@ The following pages should help you if you are not sure how to start using the t
 
 .. WARNING::
 
-        Note that visualization of the Dashboard (the panel on the left side) throughout the User Documentation can slightly alter depending on the type of instance you are using. In Researchers instance you will always be able to see these sections: Projects, Knowledge Model, Help, and your User Account.
+        Note that visualization of Sidebar (the panel on the left side) throughout the User Documentation can slightly alter depending on your Role and the type of instance you are using.

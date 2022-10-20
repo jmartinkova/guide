@@ -57,7 +57,7 @@ You can create a new integration in the root of any Knowledge Model by clicking 
 * Response
     * **Response List Field** = path in the JSON response to a list of results (dot notation can be used to navigate in complex structures)
     * **Response Id Field** = defines an identifier for the item. This will be used in Item URL as ``${id}`` to compose a URL to the found item. You can use properties from the returned item in `Jinja2 notation <https://ginger.tobiasdammers.nl/guide/>`__. For example, if the item has a field id use ``{{item.id}}`` here. You can also compose multiple fields together, e.g., ``{{item.field1}}-{{item.field2}}``
-    * **Response Item Template** = how the found items will be displayed for the user. You can use properties from the returned item in `Jinja2 notation <https://ginger.tobiasdammers.nl/guide/>`__, you can also use :doc:`../../miscellaneous/markdown` for some formatting. For example, if the returned item has a field called name, you can use **{{item.name}}** to display the name in bold
+    * **Response Item Template** = how the found items will be displayed for the user. You can use properties from the returned item in `Jinja2 notation <https://ginger.tobiasdammers.nl/guide/>`__, you can also use :doc:`../../../miscellaneous/markdown` for some formatting. For example, if the returned item has a field called name, you can use **{{item.name}}** to display the name in bold
     * **Response Item URL** = URL that will be displayed when an item from integration is selected, it should lead the user to more information about that item, you can use ``${id}`` (a ``props``) variable to build the URL
 
 Dot notation is used to navigate in more complex JSON structures when the list of items or attributes of items that need to be extracted are hidden inside. For example, you would use ``result.list`` together with ``attributes.id`` and ``attributes.data.name`` in case of:
@@ -91,7 +91,7 @@ Starting 3.11, you can store the YAML configuration directly in DSW under Settin
 Integration question
 ====================
 
-When you have some integration(s) configured, you can create questions of type **Integration**, then you have to select which integration should be used and if has any **Props defined, you can fill them as well. Using the **Preview** functionality, you can easily verify if it works. If *Unable to get type hints* error appears, your configuration is not correct (looking at the server log can be helpful if you have access to it).
+When you have some integration(s) configured, you can create questions of type **Integration**, then you have to select which integration should be used and if has any **Props** defined, you can fill them as well. Using the **Preview** functionality, you can easily verify if it works. If *Unable to get type hints* error appears, your configuration is not correct (looking at the server log can be helpful if you have access to it).
 
 FAIRsharing Proxy
 =================

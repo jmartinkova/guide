@@ -13,7 +13,13 @@ Not sure how to delete your Project?
 Delete Project
 ==============
 
-Click on the icon of the folder on the left upper side of the Dashboard.
+Click on Folders in Sidebar.
+
+.. TODO::
+
+    Add Screenshot Click on Projects in Sidebar
+
+Select Delete option from dropdown menu.
 
 .. TODO::
 

@@ -8,11 +8,11 @@ Not sure how to create a new data management plan?
 
 **How to Create Project**
 
-Click on the icon of the folder on the left upper side of Dashboard.
+Click on Folders in Sidebar.
 
 .. TODO::
 
-    Add screenshot Click on side menu to open Projects
+    Add screenshot Click on Projects in Sidebar
 
 Then click on the "Create" button.
 

@@ -12,11 +12,11 @@ Not sure how to open your Project?
 
 **How to Open Project**
 
-Click on the icon of the folder on the left upper side of the Dashboard.
+Click Projects in Sidebar.
 
 .. TODO::
 
-    Add screenshot Click on side menu to open Projects
+    Add screenshot Click on Projects in Sidebar
 
 Click on the name of the project you want to open.
 

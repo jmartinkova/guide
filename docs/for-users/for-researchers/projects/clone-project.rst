@@ -8,11 +8,11 @@ Not sure how to create a clone (duplicate, copy) of your Project?
 
 **How to Clone Project**
 
-Click on the icon of the folder on the left upper side of the Dashboard.
+Click on the Projects in Sidebar.
 
 .. TODO::
 
-    Add screenshot Click on the name of your Project
+    Add screenshot Click on Projects in Sidebar
 
 Click on the three dots on the right side of the Project you want to clone.
 
