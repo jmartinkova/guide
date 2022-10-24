@@ -6,3 +6,5 @@ User Interface Settings
     :caption: User Interface Settings
     :maxdepth: 1
 
+    dashboard
+    look-and-feel

@@ -29,3 +29,4 @@ Data Stewardship Wizard
     miscellaneous/markdown
     miscellaneous/self-hosted-dsw/index
     miscellaneous/vulnerabilities
+    miscellaneous/training-and-resources

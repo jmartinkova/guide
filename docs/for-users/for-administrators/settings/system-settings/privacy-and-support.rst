@@ -1,10 +1,10 @@
 *******************
-Privacy and Support
+Privacy & Support
 *******************
 
-Not sure where to set privacy and support settings?
+Not sure where to set privacy & support settings?
 
-Privacy and Support
+Privacy & Support
 ===================
 
 Click on the "Settings" in Sidebar.
@@ -19,7 +19,7 @@ Then click on the "Privacy & Support" section.
 
     Add Screenshot Click on Privacy & Support
 
-Now you can set the Privacy and Support settings:
+Now you can set the Privacy & Support settings:
 
 * Privacy URL
 * Terms of Service URL
