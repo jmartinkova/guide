@@ -22,3 +22,4 @@ Knowledge Model Editor
     publish-knowledge-model
     update-knowledge-model
     delete-knowledge-mode
+    knowledge-model-editor-tutorial

@@ -20,6 +20,7 @@ Data Stewardship Wizard
 
     for-users/for-researchers/index
     for-users/for-data-stewards/index
+    for-users/for-administrators/index
 
 .. toctree::
     :caption: Miscellaneous
