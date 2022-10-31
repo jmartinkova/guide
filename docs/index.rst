@@ -30,3 +30,4 @@ Data Stewardship Wizard
     miscellaneous/self-hosted-dsw/index
     miscellaneous/vulnerabilities
     miscellaneous/training-and-resources
+    miscellaneous/development/index
