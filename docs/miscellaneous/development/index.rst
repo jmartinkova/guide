@@ -8,3 +8,6 @@ Development
 
     vulnerabilities
     template-development
+    metamodel-schemas
+    vulnerabilities
+    roadmap

@@ -26,8 +26,7 @@ Data Stewardship Wizard
     :caption: Miscellaneous
     :maxdepth: 2
 
+    miscellaneous/training-and-resources
     miscellaneous/markdown
     miscellaneous/self-hosted-dsw/index
-    miscellaneous/vulnerabilities
-    miscellaneous/training-and-resources
     miscellaneous/development/index
