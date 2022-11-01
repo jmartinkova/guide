@@ -180,7 +180,7 @@ Each step of template produces output based on its (optional) input and options.
 
 * ``json`` = produces a JSON as simply dump of document context
     * *no options*
-* ``jinja2 = produces a document by supplying document context to specified Jinja2 template and renders it
+* ``jinja2`` = produces a document by supplying document context to specified Jinja2 template and renders it
     * options:
         * ``template`` = path of the template entry file (POSIX style, relative from ``template.json``, e.g. ``template/index.html.j2``)
         * ``content-type`` = resulting content type of the rendered document (e.g. ``text/html``)
