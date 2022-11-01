@@ -30,3 +30,4 @@ Data Stewardship Wizard
     miscellaneous/markdown
     miscellaneous/self-hosted-dsw/index
     miscellaneous/development/index
+    miscellaneous/help

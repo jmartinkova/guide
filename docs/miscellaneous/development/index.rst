@@ -9,5 +9,5 @@ Development
     vulnerabilities
     template-development
     metamodel-schemas
-    vulnerabilities
+    contributing
     roadmap
