@@ -68,10 +68,12 @@ html_theme_options = {
     'light_css_variables': {
         'color-brand-primary': '#f15a24',
         'color-brand-content': '#f15a24',
+        'sidebar-item-spacing-horizontal': '.75rem',
     },
     'dark_css_variables': {
         'color-brand-primary': '#f15a24',
         'color-brand-content': '#f15a24',
+        'sidebar-item-spacing-horizontal': '.75rem',
     },
     'sidebar_hide_name': True,
     'top_of_page_button': None,

@@ -1,31 +1,34 @@
-***********************
-Data Stewardship Wizard
-***********************
+DSW User's Guide
+****************
+
+...
+
+Table of Contents
+=================
+
 
 .. toctree::
-
-    introduction
-
-.. toctree::
-    :caption: General
     :maxdepth: 2
 
+    introduction/index
+    projects/index
+    knowledge-models/index
+    document-templates/index
+    users/index
+    settings/index
+    self-hosted-dsw/index
+    miscs/index
+    
+.. toctree::
+    :caption: OLD JUNK
+    
+    introduction
     general/about-dsw
     general/terminology
     general/user-account
-
-.. toctree::
-    :caption: For Users
-    :maxdepth: 2
-
     for-users/for-researchers/index
     for-users/for-data-stewards/index
     for-users/for-administrators/index
-
-.. toctree::
-    :caption: Miscellaneous
-    :maxdepth: 2
-
     miscellaneous/training-and-resources
     miscellaneous/markdown
     miscellaneous/self-hosted-dsw/index
