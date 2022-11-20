@@ -1,6 +1,14 @@
 Users
 *****
 
+This section is about managing user accounts.
+
+----
+
+Table of Contents
+=================
+
+
 .. toctree::
     :maxdepth: 2
 

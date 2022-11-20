@@ -1,6 +1,12 @@
 Document Templates
 ******************
 
+This section is about managing the document templates and document template development.
+
+----
+
+Table of Contents
+=================
 
 .. toctree::
     :maxdepth: 2

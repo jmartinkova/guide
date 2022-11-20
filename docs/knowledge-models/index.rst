@@ -1,6 +1,13 @@
 Knowledge Models
 ****************
 
+This section covers how to manage existing knowledge models and how to create new ones and make them available for researchers.
+
+----
+
+Table of Contents
+=================
+
 .. toctree::
     :maxdepth: 2
 

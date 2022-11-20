@@ -1,6 +1,14 @@
 Settings
 ********
 
+This section covers different settings available to admin users.
+
+----
+
+Table of Contents
+=================
+
+
 .. toctree::
     :maxdepth: 2
 
