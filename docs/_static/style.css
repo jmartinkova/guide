@@ -69,3 +69,12 @@ article p {
 article .admonition, article .topic {
     margin: 2rem auto;
 }
+
+.markdown-table td, .markdown-table th {
+    width: 50%;
+}
+
+.td-markdown-code {
+    font-family: var(--font-stack--monospace);
+    padding: 0.5rem !important;
+}

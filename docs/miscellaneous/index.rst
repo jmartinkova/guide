@@ -2,8 +2,9 @@ Miscellaneous
 *************
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     dsw-registry
-    markdown-cheatsheet    
+    markdown-cheatsheet  
+    help  
     

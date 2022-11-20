@@ -17,7 +17,8 @@ Table of Contents
     users/index
     settings/index
     self-hosted-dsw/index
-    miscs/index
+    development/index
+    miscellaneous/index
     
 .. toctree::
     :caption: OLD JUNK
@@ -29,8 +30,3 @@ Table of Contents
     for-users/for-researchers/index
     for-users/for-data-stewards/index
     for-users/for-administrators/index
-    miscellaneous/training-and-resources
-    miscellaneous/markdown
-    miscellaneous/self-hosted-dsw/index
-    miscellaneous/development/index
-    miscellaneous/help
