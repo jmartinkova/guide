@@ -20,13 +20,3 @@ Table of Contents
     development/index
     miscellaneous/index
     
-.. toctree::
-    :caption: OLD JUNK
-    
-    introduction
-    general/about-dsw
-    general/terminology
-    general/user-account
-    for-users/for-researchers/index
-    for-users/for-data-stewards/index
-    for-users/for-administrators/index
