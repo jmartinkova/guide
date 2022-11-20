@@ -5,8 +5,10 @@ This section is about managing user accounts.
 
 ----
 
-Table of Contents
-=================
+
+.. raw:: html
+    
+    <h2>Table of Contents</h2>
 
 
 .. toctree::

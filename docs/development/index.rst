@@ -6,8 +6,10 @@ This section covers various information related to the DSW development.
 
 ----
 
-Table of Contents
-=================
+
+.. raw:: html
+    
+    <h2>Table of Contents</h2>
 
 
 .. toctree::

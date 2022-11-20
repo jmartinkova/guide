@@ -5,8 +5,10 @@ This section covers the basics of how the Data Stewardship Wizard works.
 
 ----
 
-Table of Contents
-=================
+
+.. raw:: html
+    
+    <h2>Table of Contents</h2>
 
 .. toctree::
     :maxdepth: 1

@@ -5,8 +5,10 @@ This section is about projects -- how to create them, how to work and collaborat
 
 ----
 
-Table of Contents
-=================
+
+.. raw:: html
+    
+    <h2>Table of Contents</h2>
 
 .. toctree::
     :maxdepth: 2

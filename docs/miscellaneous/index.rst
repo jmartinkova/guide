@@ -5,9 +5,10 @@ Additional information related to DSW that might be useful.
 
 ----
 
-Table of Contents
-=================
 
+.. raw:: html
+    
+    <h2>Table of Contents</h2>
 
 .. toctree::
     :maxdepth: 1

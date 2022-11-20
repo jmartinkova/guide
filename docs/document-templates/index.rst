@@ -5,8 +5,10 @@ This section is about managing the document templates and document template deve
 
 ----
 
-Table of Contents
-=================
+
+.. raw:: html
+    
+    <h2>Table of Contents</h2>
 
 .. toctree::
     :maxdepth: 2

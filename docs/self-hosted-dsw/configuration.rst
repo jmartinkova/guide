@@ -2,14 +2,10 @@
 Configuration
 *************
 
-.. WARNING::
-
-    This page is obsolete and requires check
-
 Settings
 ========
 
-Most of the configuration is done through Settings (accessible by Administrator).
+Most of the configuration is done through :ref:`Settings<settings>` (accessible by Administrator).
 
 Configuration Files
 ===================

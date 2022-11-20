@@ -5,8 +5,11 @@ This section covers how to manage existing knowledge models and how to create ne
 
 ----
 
-Table of Contents
-=================
+
+.. raw:: html
+    
+    <h2>Table of Contents</h2>
+
 
 .. toctree::
     :maxdepth: 2
