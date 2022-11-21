@@ -6,8 +6,6 @@ Document Template Development
 
     There are links to archived DSW repositories
 
-
-
 .. NOTE::
 
     **Requirements for Template Development**
@@ -17,10 +15,22 @@ Document Template Development
     * DSW instance (recommended to have local one) with your admin account
     * Python 3.6+ (with pip) or Docker
 
+
 DSW Template Development Kit
 ============================
 
 Our Template Development Kit (TDK) provides a simple way how to work with templates locally. It is a CLI tool written in Python.
+
+
+Video Tutorial
+--------------
+
+This is a comprehensive video tutorial on how to use the DSW Template Development Kit.
+
+.. youtube:: FFElv-e24NE
+    :width: 100%
+    :align: center
+
 
 Installation
 ------------
@@ -332,4 +342,3 @@ More Info
 * Examples
     * `ds-wizard/questionnaire-report-template <https://github.com/ds-wizard/questionnaire-report-template>`__
     * `ds-wizard/madmp-template <https://github.com/ds-wizard/madmp-template>`__
-* `Template Development Kit Tutorial (video available) <https://www.youtube.com/watch?v=FFElv-e24NE&t=7s>`__

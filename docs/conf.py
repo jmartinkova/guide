@@ -37,6 +37,7 @@ rst_prolog = f"""
 # ones.
 extensions = [
     'sphinx_substitution_extensions',
+    'sphinxcontrib.youtube',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
