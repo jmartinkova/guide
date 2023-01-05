@@ -8,6 +8,11 @@ Current Phase
 
 If the :ref:`knowledge model<knowledge-model>` we use for the :ref:`project<project>` has :ref:`phases<phase>` defined, we can see a phase selection in the questionnaire detail. Different questions become desirable based on the selected phase. For example, some should be answered before submitting the proposal, while others can be filled later.
 
+.. figure:: questionnaire/phase-selection.png
+    :width: 500
+    
+    Phase selection widget.
+
 By selecting the phase you are currently in, we can see the desirable questions that are not yet answered in red. We can also see the number of questions that still need to be answered in this phase for each chapter in the chapter list.
 
 .. NOTE::
@@ -23,6 +28,10 @@ Below the current phase selection, we have a list of :ref:`chapters<chapter>`. W
 
 For the opened chapter, we can see a navigation tree for the chapter structure, showing the questions, follow-up questions, items, etc. We can use this tree to quickly navigate to a specific question in the chapter.
 
+.. figure:: questionnaire/chapter-list.png
+    :width: 250
+    
+    Chapter list showing the also the questions for the opened chapter.
 
 Questionnaire Area
 ==================
@@ -52,6 +61,10 @@ Options question has a list of pre-set answers and we can choose one from those.
 
 If there are some merics set for the answers, we can see labels with the metrics by the answer as well. The color of the label indicates how good or bad the answer is (red means bad, green good, yellow something in between).
 
+.. figure:: questionnaire/options-question.png
+    
+    Options question with a closed set of answers.
+
 
 List Question
 -------------
@@ -62,6 +75,9 @@ We can simply click on :guilabel:`Add` button under the question to add a new it
 
 There is a trash bin icon in the item's top right corner that we can use to **delete** the item. If there are more than one item, there are also arrow icons that we can use to **change the order** of the items.
 
+.. figure:: questionnaire/list-question.png
+    
+    List question with a single item.
 
 Value Question
 --------------
@@ -69,6 +85,10 @@ Value Question
 Value question contains an input field for our answer. This can be a simple text field (such as asking for a project contributor's name), or some additional widget, for example a date picker.
 
 Some of the value types contains a validation (e.g., email or URL). We can still type in an invalid answer, but it will display a warning and also show it in the list of :ref:`warnings<warnings>`.
+
+.. figure:: questionnaire/value-question.png
+    
+    Value question with a simple text input.
 
 
 Integration Question
@@ -78,10 +98,21 @@ Integration question is connected to an external resource where it searches for 
 
 When we pick an answer from the list, we not only have the answer but also **a link to the selected item in the external service**. If the answer we searched for is not there, we can simply keep what we have written in the input field. We just won't have the link with this answer.
 
+.. figure:: questionnaire/integration-question.png
+    
+    Integration question with a response from FAIRsharing containing also a link.
+
+
+
 Multi-Choice Question
 ---------------------
 
 Multi-choice question is similar to the options question, however we can choose more there one answer and there are no follow-up questions.
+
+.. figure:: questionnaire/mutli-choice-question.png
+    
+    Multi-choice question with many choices.
+
 
 
 View settings
