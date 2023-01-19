@@ -9,7 +9,7 @@ Current Phase
 If the :ref:`knowledge model<knowledge-model>` we use for the :ref:`project<project>` has :ref:`phases<phase>` defined, we can see a phase selection in the questionnaire detail. Different questions become desirable based on the selected phase. For example, some should be answered before submitting the proposal, while others can be filled later.
 
 .. figure:: questionnaire/phase-selection.png
-    :width: 500
+    :width: 299
     
     Phase selection widget.
 
@@ -29,7 +29,7 @@ Below the current phase selection, we have a list of :ref:`chapters<chapter>`. W
 For the opened chapter, we can see a navigation tree for the chapter structure, showing the questions, follow-up questions, items, etc. We can use this tree to quickly navigate to a specific question in the chapter.
 
 .. figure:: questionnaire/chapter-list.png
-    :width: 250
+    :width: 299
     
     Chapter list showing the also the questions for the opened chapter.
 
@@ -124,6 +124,12 @@ In the questionnaire tab, there is a menu bar with various options. The first on
 - :guilabel:`Phases` - show/hide what phase the questions are desirable in
 - :guilabel:`Question tags` - show/hide the question tags
 
+.. figure:: questionnaire/view-options.png
+    :width: 170
+    
+    Different view options accessible form the questionnaire toolbar.
+
+
 Import answers
 ==============
 
@@ -139,11 +145,21 @@ Warnings
 
 Some value questions (such as email or URL) validates the answer written there. If it is an invalid value, we will see :guilabel:`Warnings` tab in the questionnaire menu bar with a badge showing the number of warnings. If we click on it, we can see a list of all questions that has a warning and we can click on it to navigate quickly to that question.
 
+.. figure:: questionnaire/warnings.png
+    :width: 487
+    
+    Warnings refering to questions with invalid values.
+
 
 Comments
 ========
 
 We sometimes want to leave comments to discuss things with our team or just reminders for ourselves. We can write comments to each question in the questionnaire.
+
+.. figure:: questionnaire/comments.png
+    :width: 603
+    
+    Example of a comment.
 
 .. _add-comment:
 
@@ -183,12 +199,21 @@ When we are filling in the questionnaire, we can stumble upon a question that we
 
 We can then open the :guilabel:`TODOs` tab from the questionnaire menu to see the list of all questions with assigned TODO in the questionnaire. By clicking on a question there, we can quickly jump back to that question and fill it.
 
+.. figure:: questionnaire/todos.png
+    :width: 334
+    
+    List of TODOs.
+
 
 Version History
 ===============
 
 When we open the :guilabel:`Version history` tab from the questionnaire menu bar we can see the list of all the changes that happened in that questionnaire. We can see who and when made what changes groupped by months and days.
 
+.. figure:: questionnaire/version-history.png
+    :width: 320
+    
+    Version history shows all events changing the project.
 
 Name a Version
 --------------

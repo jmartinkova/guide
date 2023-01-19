@@ -5,10 +5,12 @@ In the :guilabel:`Documents` tab in the project detail we can manage the documen
 
 While we can quickly see how the current state of the questionnaire looks like in the document in the :ref:`preview<preview>` tab, the documents created here are persistent. That means that the once the document is created, it is immutable and you can always download it later, after you have changed the questionnaire, and it will still be the same.
 
+.. _new-document:
+
 New document
 ============
 
-We can click on :guilabel:`New document` when we want to create a new document. We need to give a name to our new document (project name is prefilled) and choose the **document template** and **format**. If there is a default document template and format set for the project, they are prefilled in this form. However, we can change them to whatever we want before creating the document. Once we hit :guilabel:`Create`, we are taken back to the document list and we'll see the new document there (it might take while before it is generated though).
+We can click on :guilabel:`New document` when we want to create a new document. We need to give a name to our new document (project name is prefilled) and choose the **document template** and **format**. If there is a :ref:`default document template and format<default-document-template>` set for the project, they are prefilled in this form. However, we can change them to whatever we want before creating the document. Once we hit :guilabel:`Create`, we are taken back to the document list and we'll see the new document there (it might take while before it is generated though).
 
 
 Document Submission

@@ -1,3 +1,5 @@
+.. _create-project:
+
 Create Project
 **************
 
@@ -9,6 +11,15 @@ We can create a new project by navigating to :guilabel:`Projects` in the main me
 
 
 Based on our instance configuration, we can create the new project from a project template, custom, or both.
+
+
+.. figure:: create/project-create.png
+    :width: 500
+    
+    Different options how to create a project.
+
+
+.. _from-project-template:
 
 From Project Template
 =====================
