@@ -1,2 +1,0 @@
-DSW Registry Settings
-*********************

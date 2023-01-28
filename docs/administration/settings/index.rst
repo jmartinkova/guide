@@ -5,6 +5,8 @@ Settings
 
 This section covers different settings available to admin users.
 
+// note that the need to save settings
+
 ----
 
 .. raw:: html

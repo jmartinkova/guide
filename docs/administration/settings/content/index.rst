@@ -8,4 +8,3 @@ Content Settings
     Knowledge Models<knowledge-models>
     Projects<projects>
     Document Submission<document-submission>
-    Document Templates<document-templates>
