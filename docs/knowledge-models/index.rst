@@ -16,6 +16,7 @@ This section covers how to manage existing knowledge models and how to create ne
 
     List<list>
     Detail<detail>
+    Preview<preview>
     Import<import>
     Create Editor<create-editor>
     Editor<editor/index>

@@ -14,8 +14,7 @@ Table of Contents
     projects/index
     knowledge-models/index
     document-templates/index
-    users/index
-    settings/index
+    administration/index
     self-hosted-dsw/index
     development/index
     miscellaneous/index

@@ -184,6 +184,9 @@ This configuration section is used only by **Document Worker**. You can affect s
 
     Optional for limiting time given to run the tool.
 
+
+.. _integration-yml-file:
+
 Integrations Configuration
 --------------------------
 

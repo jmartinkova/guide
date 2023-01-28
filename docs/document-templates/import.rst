@@ -1,3 +1,5 @@
+.. _doc-template-import:
+
 Document Template Import
 ************************
 
