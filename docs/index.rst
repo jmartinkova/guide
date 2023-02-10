@@ -3,33 +3,33 @@ DSW User's Guide
 
 ...
 
-Table of Contents
-=================
+.. raw:: html
+    
+    <h2>Table of Contents</h2>
 
 
 .. toctree::
     :maxdepth: 2
+    :caption: About
 
-    introduction/index
-    projects/index
-    knowledge-models/index
-    document-templates/index
-    administration/index
-    self-hosted-dsw/index
-    development/index
-    miscellaneous/index
-
-
-Old Stuff
-=========
-
+    about/introduction/index
 
 .. toctree::
     :maxdepth: 2
+    :caption: Application
 
-    general/about-dsw
-    general/terminology
-    general/user-account
-    for-users/for-researchers/index
-    for-users/for-data-stewards/index
-    for-users/for-administrators/index
+    application/knowledge-models/index
+    application/document-templates/index
+    application/projects/index
+    application/documents/index
+    application/administration/index
+    application/profile/index
+
+.. toctree::
+    :maxdepth: 2
+    :caption: More
+
+    more/roadmap/index
+    more/self-hosted-dsw/index
+    more/development/index
+    more/miscellaneous/index

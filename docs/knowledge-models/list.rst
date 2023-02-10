@@ -1,2 +1,0 @@
-Knowledge Model List
-********************

@@ -36,6 +36,14 @@
     margin-bottom: 0.25rem;
 }
 
+.sidebar-container {
+    width: 17rem;
+}
+
+.sidebar-drawer {
+    width: calc(50% - 20em);
+}
+
 a:hover {
     text-decoration-color: var(--color-link--hover) !important;
 }
