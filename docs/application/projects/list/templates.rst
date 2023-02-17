@@ -11,6 +11,8 @@ When creating a new project, we need to choose a knowledge model and optionally 
 
 Project templates are special type of projects where we can set up everything -- choose a knowledge model and question tags, set up default document template, pre-fill some answers, add TODOs, comments or editor notes. Researchers can then pick from these project templates when :ref:`creating a new project<create-project>`. The new project will be the exact copy of the project template so they don't have to set those things themselves and they have an easier start to their data management planning.
 
+When we want to turn a project into a project template we need to go to the :ref:`project settings<project-settings>` and check the :guilabel:`Project Template` checkbox.
+
 Sharing the Project Templates
 =============================
 
