@@ -11,6 +11,12 @@ Next, we have **Project Tags**. These can be used for providing some metadata or
 
     Project tags might be disabled in some DSW instances.
 
+
+.. figure:: settings/settings.png
+    
+    Project settings.
+
+
 .. _default-document-template:
 
 Default Document Template

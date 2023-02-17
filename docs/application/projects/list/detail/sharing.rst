@@ -5,6 +5,12 @@ Sharing
 
 We can share project with other DSW users or even external collaborators. We can access all the sharing option by clicking the :guilabel:`Share` button in the top right.
 
+.. figure:: sharing/share-modal.png
+    :width: 540
+    
+    Project sharing settings.
+
+
 There are different roles how we can share the project that can access different project features:
 
 
