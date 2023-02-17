@@ -5,6 +5,11 @@ Project List
 
 In the project list, we can see a list of all projects we have access to. Those are the projects where we were assigned to with any role or that are visible by all other logged-in users in the :ref:`project sharing settings<sharing>`. The projects are filtered to those we are explicitely assigned to by default.
 
+.. figure:: index/project-list.png
+    
+    Project list with filters.
+
+
 We can search for specific projects using the search field or filter them using additonal filters:
 
 - **Project Template** - if we want to see only :ref:`project templates<project-templates>` or regular projects
