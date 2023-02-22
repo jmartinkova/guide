@@ -17,7 +17,7 @@ This section covers various information related to the DSW development.
     metamodel-schemas
     Document Templates<document-templates>
     integrations/index
-    importers
+    Project Importers<importers>
     submission-service
     contributing
     vulnerabilities

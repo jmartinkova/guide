@@ -56,6 +56,13 @@ Based on our role in the project and specific instance settings there are some a
 
 The most important part is, however, answering the question. The way of how to answer the question differs based on the question type.
 
+The following video tutorial explain questions and different question types in more detail.
+
+.. youtube:: buG5BjWPs70
+    :width: 100%
+    :align: center
+
+
 Options Question
 ----------------
 
