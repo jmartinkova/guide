@@ -1,3 +1,5 @@
+.. _dsw-registry-settings:
+
 DSW Registry Settings
 *********************
 

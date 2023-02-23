@@ -5,6 +5,8 @@ Document Template Import
 
 We can import an existing document template by navigating to :doc:`./index` (:menuselection:`Documents > Templates`) in the main menu and then clicking on :guilabel:`Import` button on the list of document templates.
 
+.. _doc-template-import-from-registry:
+
 From DSW Registry
 =================
 
