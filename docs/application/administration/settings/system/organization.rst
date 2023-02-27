@@ -1,3 +1,5 @@
+.. _organization-settings:
+
 Organization Settings
 *********************
 
