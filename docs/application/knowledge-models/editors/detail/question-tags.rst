@@ -5,4 +5,6 @@ If there are any :ref:`question tags<question-tag>` set up in the knowledge mode
 
 We can simply click to the checkbox in the corresponding question tag - question table cell to assign/unassign the question tag to that particular question.
 
-<image of question tags tab>
+.. figure:: question-tags/question-tag-editor.png
+    
+    Question tag editor where we can assign question tags to questions.

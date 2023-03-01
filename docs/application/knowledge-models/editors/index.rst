@@ -3,7 +3,10 @@ Knowledge Model Editors
 
 Here, we can see a list of all knoweldge model editors. Everyone with the data steward role assigned can see all the knowledge model editors.
 
-<image of a list of knowledge model editors>
+.. figure:: index/knowledge-model-editors-list.png
+    
+    List of knowledge model editors.
+
 
 We can use the search field to search for a specific KM editor. The editors are sorted by when they were last updated but we can change that.
 
