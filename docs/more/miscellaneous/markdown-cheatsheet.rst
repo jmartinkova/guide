@@ -1,3 +1,5 @@
+.. _markdown:
+
 Markdown Cheatsheet
 *******************
 
