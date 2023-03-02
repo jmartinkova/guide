@@ -13,7 +13,7 @@ Most of the configuration is done through :ref:`Settings<settings>` (accessible 
 Configuration Files
 ===================
 
-Configuration files are used for setting the server-side configuration. Since 3.0 release, the configuration for server and document worker components overlap. Therefore, you can have a single configuration file for both.
+Configuration files are used for setting the server-side configuration. Since the 3.0 release, the configuration for server and document worker components has overlapped. Therefore, we can have a single configuration file for both.
 
 
 .. _config-server:
@@ -21,7 +21,7 @@ Configuration files are used for setting the server-side configuration. Since 3.
 Server Configuration
 --------------------
 
-For reference, see `configuration <https://github.com/ds-wizard/dsw-deployment-example/blob/main/dsw.yml>`__ of the DSW Deployment example.
+For reference, see the `configuration <https://github.com/ds-wizard/dsw-deployment-example/blob/main/dsw.yml>`__ of the DSW Deployment example.
 
 General
 ^^^^^^^
@@ -35,28 +35,28 @@ This configuration section is used only by **Server** and covers basic configura
 
     Port that will be the web server listening on.
 
-.. confval:: secret
-
-   :type: String
-
-    Secret string of 32 characters for encrypting configuration in database and JWT tokens.
-
 .. confval:: clientUrl
 
    :type: URI
 
     Address of client application (e.g. `https://localhost:8080 <https://localhost:8080>`__).
 
+.. confval:: secret
+
+   :type: String
+
+    Secret string of 32 characters for encrypting configuration in the database and JWT tokens.
+
 .. WARNING::
 
-    Keep your ``secret`` secured! Changing ``secret`` will require re-configuration of secrets stored in the database, e.g., token for Registry.
+    We should keep our ``secret`` secured! Changing ``secret`` will require re-configuration of secrets stored in the database, e.g., token for Registry.
 
-If you need to change your ``secret``, you need also replace all values encrypted by secret that are stored in the database as follows:
+If we need to change our ``secret``, we need also replace all values encrypted by the secret that is stored in the database as follows:
 
-1. Note somewhere values from Settings: Client ID and Client Secret of OpenID configurations, Registry token, and GitHub token for Feedback functionality, etc. Adjust the settings that the values are not there (recommended; e.g. remove OpenID configuration), and save it.
-2. Change ``secret`` in the configuration file and restart DSW server (re-create the container if using Docker).
-3. Adjust the settings back to your previous values.
-4. If you use also some "user properties" (for Document Submission feature), let your users know to change the values in their profiles.
+1. Note somewhere values from Settings: Client ID and Client Secret of OpenID configurations, Registry token, and GitHub token for Feedback functionality, etc. Adjust the settings that the values are not there (recommended; e.g., remove OpenID configuration), and save it.
+2. Change the ``secret`` in the configuration file and restart the DSW server (re-create the container if using Docker).
+3. Adjust the settings back to our previous values.
+4. If we also use some “user properties” (for the Document Submission feature), let our users know to change the values in their profiles.
 
 Database
 ^^^^^^^^
@@ -72,7 +72,7 @@ Information for connection to PostgreSQL database.
 S3
 ^^
 
-Information for connection to S3 storage (used for document and template asset files).
+Information for connection to S3 storage (used for document and document template assets).
 
 .. confval:: s3.url
 
@@ -103,7 +103,7 @@ Information for connection to S3 storage (used for document and template asset f
 Mail
 ^^^^
 
-This configuration section is used only by **Server**. It must be filled with SMTP connection information to allow sending emails (registration verification, password recovery, project invitation, etc.).
+This configuration section is used only by **Mailer**. It must be filled with SMTP connection information to allow sending emails (registration verification, password recovery, project invitation, etc.).
 
 
 .. confval:: mail.enabled
@@ -164,7 +164,7 @@ This configuration section is used only by **Server**. It must be filled with SM
 Externals
 ^^^^^^^^^
 
-This configuration section is used only by **Document Worker**. You can affect steps for templates that use external tools (``pandoc`` and ``wkhtmltopdf``). It is usually sufficient to keep the defaults. Each of them has configuration options:
+This configuration section is used only by **Document Worker**. We can affect steps for templates that use external tools (``pandoc`` and ``wkhtmltopdf``). It is usually sufficient to keep the defaults. Each of them has configuration options:
 
 .. confval:: executable
 
@@ -190,7 +190,7 @@ This configuration section is used only by **Document Worker**. You can affect s
 Integrations Configuration
 --------------------------
 
-Integrations in the DS Wizard are using external APIs and you might need some configured variables such as API keys or endpoints. For example, integration with ID ``dbase`` might use following configuration.
+Integrations in the DS Wizard use external APIs. Sometimes, we might need some configured variables, such as API keys or endpoints. For example, integration with ID ``dbase`` might use the following configuration.
 
 .. CODE-BLOCK:: yaml
 
@@ -199,16 +199,16 @@ Integrations in the DS Wizard are using external APIs and you might need some co
         apiUrl: https://api.dbase.example:10666
         someConfig: someValue4Integration
 
-There can be multiple integrations configured in single file. These can be used then when setting up the integration in the Editor as ``${apiKey}``, ``${apiUrl}``, etc. More about integrations can be found in separate integrations documentation.
+There can be multiple integrations configured in a single file. These can be used then when setting up the integration in the Editor as ``${apiKey}``, ``${apiUrl}``, etc. More about integrations can be found in separate :ref:`integrations documentation<integrations>`.
 
 .. NOTE::
 
-     Different knowledge models may use different variable naming, please read the information in README to find out what is required. We recommend authors to stick with ``apiKey`` and ``apiUrl`` variables as our convention.
+     Different knowledge models may use different variable naming. Please read the information in README to find out what is required. We recommend authors to stick with ``apiKey`` and ``apiUrl`` variables as our convention.
 
 Client Configuration
 --------------------
 
-If you are running the client app using “With Docker”, the all you need is to specify ``API_URL`` environment variable inside ``docker-compose.yml``. In case you want to run the client locally, you need to create a ``config.js`` file in the project root:
+If we are running the client app using “With Docker”, the all we need is to specify ``API_URL`` environment variable inside ``docker-compose.yml``. In case we want to run the client locally, we need to create a ``config.js`` file in the project root:
 
 .. CODE-BLOCK:: javascript
 
@@ -216,7 +216,7 @@ If you are running the client app using “With Docker”, the all you need is t
         apiUrl: 'http://localhost:3000'
     }
 
-Client also provides wide variety of style customizations using SASS variables or message localization. Then you can mount it as volumes in case Docker as well:
+The client also provides a wide variety of style customizations using SASS variables or message localization. Then we can mount it as volumes in case Docker as well:
 
 .. CODE-BLOCK:: yaml
 
@@ -226,11 +226,11 @@ Client also provides wide variety of style customizations using SASS variables o
         - /path/to/overrides.scss:/src/scss/customizations/_overrides.scss
         - /path/to/variables.scss:/src/scss/customizations/_variables.scss
         - /path/to/provisioning.json:/configuration/provisioning.json:ro
-        # mount other assets, you can then refere them from scss using '/assets/...'
+        # mount other assets, we can then refere them from scss using '/assets/...'
         - /path/to/assets:/usr/share/nginx/html/assets
 
-* ``_extra.scss`` = This file is loaded before all other styles. You can use it, for example, to define new styles or import fonts.
-* ``_overrides.scss`` = This file is loaded after all other styles. You can use it to override existing styles.
+* ``_extra.scss`` = This file is loaded before all other styles. We can use it, for example, to define new styles or import fonts.
+* ``_overrides.scss`` = This file is loaded after all other styles. We can use it to override existing styles.
 * ``_variables.scss`` = A lot of values related to styles are defined as variables. The easiest way to customize the style is to define new values for these variables using this file.
 
 For more information about variables and assets, visit `Theming Bootstrap <https://getbootstrap.com/docs/4.0/getting-started/theming/>`__. The color of illustrations can be adjusted using ``$illustrations-color`` variable.
@@ -238,18 +238,13 @@ For more information about variables and assets, visit `Theming Bootstrap <https
 Document Templates
 ==================
 
-You can freely customize and style templates of documents (DMPs). HTML and CSS knowledge is required and for doing more complex templates that use some conditions, loops, or macros, knowledge of `Jinja templating language <https://jinja.palletsprojects.com/en/3.1.x/>`__ (pure Python implementation) is useful.
+We can freely customize and style templates of documents (DMPs). HTML and CSS knowledge is required, and for doing more complex templates that use some conditions, loops, or macros, knowledge of `Jinja templating language <https://jinja.palletsprojects.com/en/3.1.x/>`__ (pure Python implementation) is useful. For more information, please read :ref:`the following section<document-template-development>`.
 
-.. TODO:
-
-    Add link
-
-    For further information, read Template Development.
 
 Email Templates
 ===============
 
-Similarly to document templates, you can customize templates for emails sent by the Wizard located in ``templates/mail`` folder. It also uses `Jinja templating language <https://jinja.palletsprojects.com/en/3.1.x/>`__. And you can create HTML template, Plain Text template, add attachments, and add inline images (which can be used inside the HTML using `Content-ID <https://en.wikipedia.org/wiki/MIME#Related>`__ equal to the filename).
+Similarly to document templates, we can customize templates for emails sent by the Wizard located in ``templates/mail`` folder. It also uses `Jinja templating language <https://jinja.palletsprojects.com/en/3.1.x/>`__. And we can create HTML template, Plain Text template, add attachments, and add inline images (which can be used inside the HTML using `Content-ID <https://en.wikipedia.org/wiki/MIME#Related>`__ equal to the filename).
 
 Templates Structure
 -------------------
@@ -263,7 +258,7 @@ The structure is following:
 * ``templates/mail/<name>/attachments`` = attachments specific for email type
 * ``templates/mail/<name>/images`` = inline images specific for email type
 
-All attachments are loaded from the template-specific and common folders and included to email with detected `MIME type <https://en.wikipedia.org/wiki/Media_type>`__. It similarly works for inline images but those are not displayed as attachments just as `related part <https://en.wikipedia.org/wiki/MIME#Related>`__ to HTML part (if present). We highly recommend to use ASCII-only names without whitespaces and with standard extensions. Also, sending minimum amount of data via email is suggested.
+All attachments are loaded from the template-specific and common folders and included in to email with the detected `MIME type <https://en.wikipedia.org/wiki/Media_type>`__. It similarly works for inline images, but those are not displayed as attachments, just as `related part <https://en.wikipedia.org/wiki/MIME#Related>`__ to the HTML part (if present). We highly recommend using ASCII-only names without whitespaces and with standard extensions. Also, sending a minimum amount of data via email is suggested.
 
 Templates variables
 -------------------
@@ -291,11 +286,12 @@ Currently, there are following types of mail:
 * ``registrationConfirmation`` = email sent to user after registration to verify email address, contains ``activationLink`` variable
 * ``registrationCreatedAnalytics`` = email sent to address specified in the configuration about registration of a new user (see Analytics config)
 * ``resetPassword`` = email sent to user when requests resetting a password, contains ``resetLink`` variable
+* ``twoFactorAuth`` = email sent to user when the 2FA is enabled
 
 Docker deployment
 -----------------
 
-Including own email templates while using dockerized Wizard is practically the same as for DMP templates. You can also bind whole ``templates/mail`` folder (or even ``templates`` if want to change both):
+Including our own email templates while using dockerized Wizard is practically the same as for DMP templates. We can also bind whole ``templates/mail`` folders (or even ``templates`` if we want to change both):
 
 .. CODE-BLOCK:: yaml
 
