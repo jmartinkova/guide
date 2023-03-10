@@ -1,7 +1,7 @@
 Knowledge Models
 ****************
 
-This section covers how to manage existing knowledge models and how to create new ones and make them available for researchers.
+This section covers how to manage existing :ref:`knowledge models<knowledge-model>` and how to create new ones and make them available for researchers.
 
 ----
 
