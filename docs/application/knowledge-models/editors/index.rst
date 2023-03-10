@@ -1,3 +1,5 @@
+.. _knowledge-model-editors:
+
 Knowledge Model Editors
 ***********************
 
