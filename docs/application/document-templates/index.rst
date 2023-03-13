@@ -1,3 +1,5 @@
+.. _document-templates:
+
 Document Templates
 ******************
 

@@ -1,3 +1,5 @@
+.. _knowledge-models:
+
 Knowledge Models
 ****************
 

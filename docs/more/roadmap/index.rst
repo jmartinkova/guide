@@ -30,6 +30,8 @@ Planned Versions
     * Various optimizations and UI fixes
 
 
+.. _released-versions:
+
 Released Versions
 =================
 
