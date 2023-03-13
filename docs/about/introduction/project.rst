@@ -9,6 +9,7 @@ Projects are fully collaborative, so we can share them with other researchers an
 
 
 .. _questionnaire:
+
 Questionnaire
 =============
 
@@ -18,6 +19,7 @@ The questionnaire is part of the project where we fill in our answers. It is gen
 :ref:`Learn how to work with the questionnaire →<project-questionnaire>`
 
 .. _documents:
+
 Documents
 =========
 

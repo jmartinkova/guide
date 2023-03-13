@@ -1,3 +1,5 @@
+.. _dsw-registry:
+
 DSW Registry
 ************
 

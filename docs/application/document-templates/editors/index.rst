@@ -1,3 +1,5 @@
+.. _document-template-editors:
+
 Document Template Editors
 *************************
 

@@ -16,6 +16,8 @@ Document Templates allows to specify how to export a questionnaire in form of a 
     * Python 3.7+ (with pip) or Docker
 
 
+.. _dsw-tdk:
+
 DSW Template Development Kit
 ============================
 
