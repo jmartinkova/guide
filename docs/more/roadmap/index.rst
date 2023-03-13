@@ -17,10 +17,24 @@ Need to know some info about the latest released version or what is planned?
 Planned Versions
 ================
 
+3.22
+----
+
+* Release (expected): 4 April 2023
+* `Jira issues 3.22.0 <https://ds-wizard.atlassian.net/browse/DSW-1730?jql=project%20%3D%20DSW%20AND%20fixVersion%20%3D%203.22.0%20ORDER%20BY%20priority%20DESC>`__
+* Key changes:
+    * TBD
+
+
+.. _released-versions:
+
+Released Versions
+=================
+
 3.21
 ----
 
-* Release (expected): 7 March 2023
+* Release: 7 March 2023
 * `Jira issues 3.21.0 <https://ds-wizard.atlassian.net/browse/DSW-1682?jql=project%20%3D%20DSW%20AND%20fixVersion%20%3D%203.21.0%20ORDER%20BY%20priority%20DESC>`__
 * Key changes:
     * Two-factor authentication (2FA)
@@ -30,10 +44,6 @@ Planned Versions
     * Various optimizations and UI fixes
 
 
-.. _released-versions:
-
-Released Versions
-=================
 
 3.20
 ----

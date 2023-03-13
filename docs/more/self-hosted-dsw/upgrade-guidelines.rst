@@ -39,6 +39,12 @@ Upgrade process
 
 Usually, nothing special is required for the upgrade. Internal structure changes are migrated automatically using DB migrations and Metamodel migrations *(since 1.8.0)*. See below the changes that need to be done by us *(since 1.10.0)*:
 
+3.20.X to 3.21.X
+----------------
+
+- **(breaking)** The ``wizard-client`` container now exposes a different port (as all images are now root-less): 8080 instance of 80.
+
+
 3.19.X to 3.20.X
 ----------------
 
