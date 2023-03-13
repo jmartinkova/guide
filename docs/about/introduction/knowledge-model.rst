@@ -7,7 +7,7 @@ The knowledge model is a tree-like structure of chapters, questions, answers, an
 
 While all the possibilities are defined in the knowledge model, when researchers use it to create their project, they don't see everything, but only the top-level questions and more detailed questions are only asked if relevant to their use case.
 
-Knowledge models are created by data stewards in the knowledge model editor.
+Knowledge models are created by data stewards in the :ref:`knowledge model editor<knowledge-model-editor>`.
 
 Knowledge Model Structure
 =========================

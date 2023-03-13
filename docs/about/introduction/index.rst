@@ -15,8 +15,8 @@ This section will cover the essentials of the Data Stewardship Wizard, including
 
     overview
     knowledge-model
-    project
     document-template
-    project-template
+    project
+
     
     
