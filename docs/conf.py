@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Data Stewardship Wizard'
-copyright = '2022, DSW Team'
+copyright = '2023, DSW Team'
 author = 'DSW Team'
 
 # The full version, including alpha/beta/rc tags
