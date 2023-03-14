@@ -58,6 +58,7 @@ a:hover {
 
 .rst-versions a {
     color: var(--color-brand-primary) !important;
+    cursor: pointer;
 }
 
 .article-container table {
