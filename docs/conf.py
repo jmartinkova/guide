@@ -22,7 +22,7 @@ copyright = '2023, DSW Team'
 author = 'DSW Team'
 
 # The full version, including alpha/beta/rc tags
-version = release = 'latest'
+version = release = '3.21'
 
 rst_prolog = f"""
 
