@@ -18,19 +18,17 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Data Stewardship Wizard'
-copyright = '2022, DSW Team'
+copyright = '2023, DSW Team'
 author = 'DSW Team'
 
 # The full version, including alpha/beta/rc tags
-release = 'latest'
-
+version = release = '3.21'
 
 rst_prolog = f"""
 
 .. |compose_ver| replace:: {release}
 
 """
-
 
 # -- General configuration ---------------------------------------------------
 
@@ -39,6 +37,9 @@ rst_prolog = f"""
 # ones.
 extensions = [
     'sphinx_substitution_extensions',
+    'sphinxcontrib.youtube',
+    'sphinx.ext.todo',
+    'sphinx_toolbox.confval',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -48,7 +49,6 @@ templates_path = []
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -64,52 +64,27 @@ html_static_path = ['_static']
 
 html_favicon = '_static/favicon.ico'
 html_theme_options = {
-    'display_version': True,
-    'logo_only': True,
     'light_logo': 'logo/logo-light-mode.svg',
     'dark_logo': 'logo/logo-dark-mode.svg',
     'light_css_variables': {
         'color-brand-primary': '#f15a24',
         'color-brand-content': '#f15a24',
+        'sidebar-item-spacing-horizontal': '.75rem',
     },
     'dark_css_variables': {
         'color-brand-primary': '#f15a24',
         'color-brand-content': '#f15a24',
+        'sidebar-item-spacing-horizontal': '.75rem',
     },
     'sidebar_hide_name': True,
     'top_of_page_button': None,
 }
 
+
 def setup(app):
     app.add_css_file('style.css')
 
-    make_confval(app)
-
-
-def make_confval(app):
-    # Copy-pasted from https://github.com/rtfd/sphinx_rtd_theme
-    from sphinx.locale import _
-    from sphinx.domains.python import PyField
-    from sphinx.util.docfields import Field
-
-    app.add_object_type(
-        'confval',
-        'confval',
-        objname='configuration value',
-        indextemplate='pair: %s; configuration value',
-        doc_field_types=[
-            PyField(
-                'type',
-                label=_('Type'),
-                has_arg=False,
-                names=('type',),
-                bodyrolename='class'
-            ),
-            Field(
-                'default',
-                label=_('Default'),
-                has_arg=False,
-                names=('default',),
-            ),
-        ]
-    )
+suppress_warnings = [
+    # Suppress "WARNING: unknown mimetype (issue with .ico)
+    'epub.unknown_project_files',
+]
