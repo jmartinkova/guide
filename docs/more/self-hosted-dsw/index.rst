@@ -19,5 +19,6 @@ This section explains how to deploy, configure, and maintain DSW instance on you
     deployment
     configuration
     upgrade-guidelines
+    faq-notes
     
     

@@ -23,7 +23,12 @@ Planned Versions
 * Release (expected): 4 April 2023
 * `Jira issues 3.22.0 <https://ds-wizard.atlassian.net/browse/DSW-1730?jql=project%20%3D%20DSW%20AND%20fixVersion%20%3D%203.22.0%20ORDER%20BY%20priority%20DESC>`__
 * Key changes:
-    * TBD
+    * Information about versions of all components
+    * Possibility to forbid use of a specific KM
+    * Support DKIM signing for emails
+    * Phase table in KM Editor
+    * Improve default English locale metadata
+    * Several UI/UX improvements and bugfixes
 
 
 .. _released-versions:

@@ -1,4 +1,3 @@
-*************
 Configuration
 *************
 
@@ -99,6 +98,12 @@ Information for connection to S3 storage (used for document and document templat
    :default: ``engine-wizard``
 
     Bucket name used by DSW
+
+
+.. WARNING::
+
+    S3 service must be publicly accessible (so users can download documents and export templates or locales). Also, bucket must be created otherwise documents cannot be created and documet tempates / locales imported.
+
 
 Mail
 ^^^^
