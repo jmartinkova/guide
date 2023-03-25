@@ -1,4 +1,3 @@
-******************
 Upgrade Guidelines
 ******************
 
@@ -43,7 +42,7 @@ Usually, nothing special is required for the upgrade. Internal structure changes
 ----------------
 
 - **(breaking)** The ``wizard-client`` container now exposes a different port (as all images are now root-less): 8080 instance of 80.
-
+- **(breaking)** The S3 service must be now publicly available, thus the S3 URL configured via :ref:`config-server` must be reachable by users to support download of documents or document preview.
 
 3.19.X to 3.20.X
 ----------------
