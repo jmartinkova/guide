@@ -29,11 +29,32 @@ Planned Versions
 Released Versions
 =================
 
+.. _frontend-backend:
+.. _v3.22.1:
+
+3.22.1 (frontend, backend)
+--------------------------
+
+* *Release: 11 April 2023*
+
+* **Bugfixes:**
+
+  * Fix database migration of existing KM editors after 3.22 that could cause unexpected KM editor version or missing metadata (such as readme).
+  * Fix publish process in KM editor and Document Template Editor that could be confusing after 3.22 changes.
+  * Fix deleting KM editor when it is migrating.
+
+* **More:**
+
+  * `Jira issues 3.22.1-frontend <https://ds-wizard.atlassian.net/browse/DSW-1883?jql=project%20%3D%20DSW%20AND%20fixVersion%20%3D%203.22.1-frontend%20ORDER%20BY%20priority%20DESC>`__
+  * `Jira issues 3.22.1-backend <https://ds-wizard.atlassian.net/browse/DSW-1883?jql=project%20%3D%20DSW%20AND%20fixVersion%20%3D%203.22.1-backend%20ORDER%20BY%20priority%20DESC>`__
+  * `API Changelog 3.22.0 ➔ 3.22.1 <https://api-docs.ds-wizard.org/changelogs/3.22.0-3.22.1.html>`__ 
+
+
 
 .. _v3.22:
 
-3.22
-----
+3.22.0
+------
 
 * *Release: 4 April 2023*
 
