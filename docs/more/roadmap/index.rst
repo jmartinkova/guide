@@ -29,7 +29,31 @@ Planned Versions
 Released Versions
 =================
 
+..
+    This is a workaround to random anchor links generation by Sphinx
+    https://github.com/sphinx-doc/sphinx/issues/1961#issuecomment-1322281847
+
 .. _frontend-backend:
+.. _backend:
+
+.. _v3.22.2-backend:
+
+3.22.2 (backend)
+--------------------------
+
+* *Release: 12 April 2023*
+
+* **Bugfixes:**
+
+  * Fixed an issue that sometimes caused suggesting the same knowledge model multiple times when creating a new project or knowledge model editor.
+
+* **More:**
+
+  * `Jira issues 3.22.2-backend <https://ds-wizard.atlassian.net/browse/DSW-1887?jql=project%20%3D%20DSW%20AND%20fixVersion%20%3D%203.22.2-backend%20ORDER%20BY%20priority%20DESC>`__
+  * `API Changelog 3.22.1 ➔ 3.22.2 <https://api-docs.ds-wizard.org/changelogs/3.22.1-3.22.2.html>`__ 
+
+
+
 .. _v3.22.1:
 
 3.22.1 (frontend, backend)
@@ -39,9 +63,9 @@ Released Versions
 
 * **Bugfixes:**
 
-  * Fix database migration of existing KM editors after 3.22 that could cause unexpected KM editor version or missing metadata (such as readme).
-  * Fix publish process in KM editor and Document Template Editor that could be confusing after 3.22 changes.
-  * Fix deleting KM editor when it is migrating.
+  * Fixed database migration of existing KM editors after 3.22 that could cause unexpected KM editor version or missing metadata (such as readme).
+  * Fixed publish process in KM editor and Document Template Editor that could be confusing after 3.22 changes.
+  * Fixed deleting KM editor when it is migrating.
 
 * **More:**
 
