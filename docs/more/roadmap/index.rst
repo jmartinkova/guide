@@ -50,7 +50,7 @@ Released Versions
 * **More:**
 
   * `Jira issues 3.22.3-backend <https://ds-wizard.atlassian.net/browse/DSW-1893?jql=project%20%3D%20DSW%20AND%20fixVersion%20%3D%203.22.3-backend%20ORDER%20BY%20priority%20DESC>`__
-  * `API Changelog 3.22.1 ➔ 3.22.2 <https://api-docs.ds-wizard.org/changelogs/3.22.2-3.22.3.html>`__ 
+  * `API Changelog 3.22.2 ➔ 3.22.3 <https://api-docs.ds-wizard.org/changelogs/3.22.2-3.22.3.html>`__ 
 
 
 
