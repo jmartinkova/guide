@@ -35,11 +35,28 @@ Released Versions
 
 .. _frontend-backend:
 .. _backend:
+.. _tools:
+
+.. _v3.22.1-tools:
+
+3.22.1 (tools)
+--------------
+
+* *Release: 14 April 2023*
+
+* **Bugfixes:**
+
+  * Fixed sending mails when configuration is loaded from database.
+
+* **More:**
+
+  * `Jira issues 3.22.1-tools <https://ds-wizard.atlassian.net/browse/DSW-1900?jql=project%20%3D%20DSW%20AND%20fixVersion%20%3D%203.22.1-tools%20ORDER%20BY%20priority%20DESC>`__
+
 
 .. _v3.22.3-backend:
 
 3.22.3 (backend)
---------------------------
+----------------
 
 * *Release: 13 April 2023*
 
@@ -57,7 +74,7 @@ Released Versions
 .. _v3.22.2-backend:
 
 3.22.2 (backend)
---------------------------
+----------------
 
 * *Release: 12 April 2023*
 
